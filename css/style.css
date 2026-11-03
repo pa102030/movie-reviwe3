@@ -1,0 +1,94 @@
+:root {
+  --bg: #0a0d12;
+  --bg-card: #131820;
+  --text: #f0f4f8;
+  --text-2: #94a3b8;
+  --accent: #e50914;
+  --accent-hover: #f40612;
+  --border: rgba(255, 255, 255, 0.08);
+  --gold: #f59e0b;
+}
+
+[data-theme="light"] {
+  --bg: #f8fafc;
+  --bg-card: #ffffff;
+  --text: #0f172a;
+  --text-2: #64748b;
+  --border: rgba(0, 0, 0, 0.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Header */
+.site-header {
+  position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+  background: rgba(10, 13, 18, 0.85); backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border); transition: background 0.3s;
+}
+.site-header.scrolled { background: var(--bg); }
+.header-inner {
+  max-width: 1400px; margin: 0 auto; padding: 16px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo {
+  color: var(--text); text-decoration: none; font-weight: 800; font-size: 20px;
+  display: flex; align-items: center; gap: 10px; font-family: 'Be Vietnam Pro', sans-serif;
+}
+.logo-mark { background: var(--accent); color: #fff; padding: 6px 10px; border-radius: 8px; }
+.logo b { color: var(--accent); }
+
+.main-nav { display: flex; gap: 24px; }
+.main-nav a {
+  color: var(--text-2); text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.2s;
+}
+.main-nav a:hover { color: var(--text); }
+
+.header-actions { display: flex; align-items: center; gap: 12px; }
+.icon-btn, .btn-profile {
+  background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border);
+  color: var(--text); padding: 8px 12px; border-radius: 8px; cursor: pointer;
+  text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 6px;
+  transition: all 0.2s;
+}
+.icon-btn:hover, .btn-profile:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.hamburger { display: none; }
+
+/* Hero Section */
+.hero { position: relative; height: 75vh; min-height: 500px; display: flex; align-items: flex-end; padding: 60px 24px; margin-top: 70px; }
+.hero-bg { position: absolute; inset: 0; background-size: cover; background-position: center; filter: brightness(0.6); }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(0deg, var(--bg) 0%, transparent 70%); }
+.hero-content { position: relative; z-index: 2; max-width: 800px; }
+
+/* Grid & Cards */
+.section { max-width: 1400px; margin: 40px auto; padding: 0 24px; }
+.section-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.section-title { font-size: 24px; font-weight: 700; font-family: 'Be Vietnam Pro', sans-serif; }
+.section-link { color: var(--accent); text-decoration: none; font-weight: 600; }
+
+.mrow { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+.movie-card { background: var(--bg-card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); transition: transform 0.2s; }
+.movie-card:hover { transform: translateY(-5px); }
+.poster-wrap { position: relative; aspect-ratio: 2/3; display: block; overflow: hidden; background: #1a1a1a; }
+.poster-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.badge-hd { position: absolute; top: 10px; left: 10px; background: var(--accent); color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+.badge-rate { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); color: var(--gold); padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 600; display: flex; gap: 4px; align-items: center; }
+.card-info { padding: 14px; }
+.card-info h3 { font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 6px; }
+.ci-meta { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-2); }
+
+/* Footer */
+.site-footer { background: var(--bg-card); border-top: 1px solid var(--border); padding: 40px 24px; margin-top: 60px; text-align: center; color: var(--text-2); }
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+
+/* Responsive Mobile */
+@media(max-width: 768px) {
+  .main-nav { display: none; }
+  .main-nav.open { display: flex; flex-direction: column; position: absolute; top: 70px; left: 0; width: 100%; background: var(--bg); padding: 20px; border-bottom: 1px solid var(--border); }
+  .hamburger { display: flex; }
+}
