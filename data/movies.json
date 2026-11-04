@@ -1,0 +1,5186 @@
+{
+ "movies": [
+  {
+   "id": 1,
+   "title": "Gladiator",
+   "originalTitle": "Gladiator",
+   "year": 2000,
+   "releaseDate": "2000-06-01",
+   "rating": 8.2,
+   "votes": 11000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+   ],
+   "runtime": 155,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Ridley Scott",
+   "cast": [
+    "Russell Crowe",
+    "Joaquin Phoenix",
+    "Connie Nielsen"
+   ],
+   "ageRating": "R",
+   "overview": "A betrayed Roman general rises through the gladiator arena to confront the corrupt emperor who destroyed his family.",
+   "tagline": "A hero will rise.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Google TV"
+   ],
+   "review": {
+    "story": 8.6,
+    "acting": 9.0,
+    "direction": 8.8,
+    "cinematography": 8.9,
+    "music": 8.7,
+    "vfx": 8.2,
+    "entertainment": 9.0,
+    "body": "Ridley Scott's swords-and-sandals epic remains the benchmark for modern historical action. Crowe carries the film with wounded gravitas, and the Colosseum sequences still thunder two decades later.",
+    "verdict": "Timeless epic - essential viewing."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 2,
+   "title": "Memento",
+   "originalTitle": "Memento",
+   "year": 2000,
+   "releaseDate": "2000-06-01",
+   "rating": 8.2,
+   "votes": 9500,
+   "genres": [
+    "Mystery",
+    "Thriller"
+   ],
+   "runtime": 113,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Guy Pearce",
+    "Carrie-Anne Moss",
+    "Joe Pantoliano"
+   ],
+   "ageRating": "R",
+   "overview": "A man with short-term memory loss tattoos clues on his body to hunt his wife's killer, told in reverse chronology.",
+   "tagline": "Some memories are best forgotten.",
+   "watch": [
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 3,
+   "title": "Crouching Tiger, Hidden Dragon",
+   "originalTitle": "Crouching Tiger, Hidden Dragon",
+   "year": 2000,
+   "releaseDate": "2000-06-01",
+   "rating": 7.8,
+   "votes": 7200,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Romance"
+   ],
+   "runtime": 120,
+   "language": "Mandarin",
+   "country": [
+    "Taiwan",
+    "China",
+    "Hong Kong"
+   ],
+   "director": "Ang Lee",
+   "cast": [
+    "Chow Yun-fat",
+    "Michelle Yeoh",
+    "Zhang Ziyi"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Two warriors pursue a stolen sword while a rebellious young aristocrat discovers her own dangerous talent.",
+   "tagline": "The most acclaimed martial-arts film ever made.",
+   "watch": [
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 4,
+   "title": "X-Men",
+   "originalTitle": "X-Men",
+   "year": 2000,
+   "releaseDate": "2000-06-01",
+   "rating": 7.0,
+   "votes": 8600,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 104,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Bryan Singer",
+   "cast": [
+    "Hugh Jackman",
+    "Patrick Stewart",
+    "Ian McKellen"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Mutants with extraordinary abilities are torn between peaceful coexistence and war with humanity.",
+   "tagline": "The future begins.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 5,
+   "title": "The Lord of the Rings: The Fellowship of the Ring",
+   "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
+   "year": 2001,
+   "releaseDate": "2001-06-01",
+   "rating": 8.4,
+   "votes": 17500,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "runtime": 178,
+   "language": "English",
+   "country": [
+    "New Zealand",
+    "United States"
+   ],
+   "director": "Peter Jackson",
+   "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Viggo Mortensen"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A young hobbit inherits a ring of terrible power and sets out with eight companions to destroy it in the fires of Mount Doom.",
+   "tagline": "One ring to rule them all.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.8,
+    "acting": 8.7,
+    "direction": 9.0,
+    "cinematography": 9.3,
+    "music": 9.1,
+    "vfx": 8.8,
+    "entertainment": 9.0,
+    "body": "Jackson's opening chapter is blockbuster filmmaking with a soul. From the Shire's warmth to the Mines of Moria's dread, it balances spectacle and heart like few films since.",
+    "verdict": "A landmark of modern fantasy cinema."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 6,
+   "title": "Harry Potter and the Philosopher's Stone",
+   "originalTitle": "Harry Potter and the Philosopher's Stone",
+   "year": 2001,
+   "releaseDate": "2001-06-01",
+   "rating": 7.5,
+   "votes": 13000,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Family"
+   ],
+   "runtime": 152,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Chris Columbus",
+   "cast": [
+    "Daniel Radcliffe",
+    "Emma Watson",
+    "Rupert Grint"
+   ],
+   "ageRating": "PG",
+   "overview": "An orphaned boy discovers he is a wizard and begins his first year at the Hogwarts School of Witchcraft and Wizardry.",
+   "tagline": "Let the magic begin.",
+   "watch": [
+    "Max",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 7,
+   "title": "Shrek",
+   "originalTitle": "Shrek",
+   "year": 2001,
+   "releaseDate": "2001-06-01",
+   "rating": 7.7,
+   "votes": 12000,
+   "genres": [
+    "Animation",
+    "Comedy",
+    "Fantasy"
+   ],
+   "runtime": 90,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Andrew Adamson",
+   "cast": [
+    "Mike Myers",
+    "Eddie Murphy",
+    "Cameron Diaz"
+   ],
+   "ageRating": "PG",
+   "overview": "A grumpy ogre's swamp is invaded by fairy-tale refugees, forcing him on a quest to rescue a princess.",
+   "tagline": "The greatest fairy tale never told.",
+   "watch": [
+    "Peacock",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 8,
+   "title": "Ocean's Eleven",
+   "originalTitle": "Ocean's Eleven",
+   "year": 2001,
+   "releaseDate": "2001-06-01",
+   "rating": 7.7,
+   "votes": 9800,
+   "genres": [
+    "Crime",
+    "Thriller",
+    "Comedy"
+   ],
+   "runtime": 116,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Steven Soderbergh",
+   "cast": [
+    "George Clooney",
+    "Brad Pitt",
+    "Matt Damon"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A recently paroled con assembles a crew of specialists to rob three Las Vegas casinos simultaneously.",
+   "tagline": "Are you in or out?",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 9,
+   "title": "The Fast and the Furious",
+   "originalTitle": "The Fast and the Furious",
+   "year": 2001,
+   "releaseDate": "2001-06-01",
+   "rating": 6.9,
+   "votes": 8900,
+   "genres": [
+    "Action",
+    "Crime",
+    "Thriller"
+   ],
+   "runtime": 106,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Rob Cohen",
+   "cast": [
+    "Vin Diesel",
+    "Paul Walker",
+    "Michelle Rodriguez"
+   ],
+   "ageRating": "PG-13",
+   "overview": "An undercover cop infiltrates the Los Angeles street-racing scene and forms a bond with the crew's leader.",
+   "tagline": "Live life a quarter mile at a time.",
+   "watch": [
+    "Peacock",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 10,
+   "title": "Spider-Man",
+   "originalTitle": "Spider-Man",
+   "year": 2002,
+   "releaseDate": "2002-06-01",
+   "rating": 7.2,
+   "votes": 11500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 121,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Sam Raimi",
+   "cast": [
+    "Tobey Maguire",
+    "Kirsten Dunst",
+    "Willem Dafoe"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A bitten teenager gains spider-like powers and learns that with great power comes great responsibility.",
+   "tagline": "With great power comes great responsibility.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 11,
+   "title": "The Lord of the Rings: The Two Towers",
+   "originalTitle": "The Lord of the Rings: The Two Towers",
+   "year": 2002,
+   "releaseDate": "2002-06-01",
+   "rating": 8.4,
+   "votes": 16500,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "runtime": 179,
+   "language": "English",
+   "country": [
+    "New Zealand",
+    "United States"
+   ],
+   "director": "Peter Jackson",
+   "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Viggo Mortensen"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The fellowship is broken as Frodo and Sam continue toward Mordor while the others rally the kingdoms of men.",
+   "tagline": "A new power is rising.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 12,
+   "title": "Minority Report",
+   "originalTitle": "Minority Report",
+   "year": 2002,
+   "releaseDate": "2002-06-01",
+   "rating": 7.4,
+   "votes": 7800,
+   "genres": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 145,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Steven Spielberg",
+   "cast": [
+    "Tom Cruise",
+    "Colin Farrell",
+    "Samantha Morton"
+   ],
+   "ageRating": "PG-13",
+   "overview": "In a future where police arrest murderers before they strike, a precrime officer becomes a fugitive accused of a future killing.",
+   "tagline": "The system is perfect until it comes after you.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Paramount+"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 13,
+   "title": "City of God",
+   "originalTitle": "City of God",
+   "year": 2002,
+   "releaseDate": "2002-06-01",
+   "rating": 8.2,
+   "votes": 6100,
+   "genres": [
+    "Crime",
+    "Drama"
+   ],
+   "runtime": 130,
+   "language": "Portuguese",
+   "country": [
+    "Brazil",
+    "France"
+   ],
+   "director": "Fernando Meirelles",
+   "cast": [
+    "Alexandre Rodrigues",
+    "Leandro Firmino",
+    "Phellipe Haagensen"
+   ],
+   "ageRating": "R",
+   "overview": "Two boys grow up in the favelas of Rio de Janeiro, one becoming a photographer and the other a drug lord.",
+   "tagline": "Fighting to survive.",
+   "watch": [
+    "Max",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 14,
+   "title": "28 Days Later",
+   "originalTitle": "28 Days Later",
+   "year": 2002,
+   "releaseDate": "2002-06-01",
+   "rating": 7.2,
+   "votes": 6800,
+   "genres": [
+    "Horror",
+    "Thriller",
+    "Sci-Fi"
+   ],
+   "runtime": 113,
+   "language": "English",
+   "country": [
+    "United Kingdom"
+   ],
+   "director": "Danny Boyle",
+   "cast": [
+    "Cillian Murphy",
+    "Naomie Harris",
+    "Christopher Eccleston"
+   ],
+   "ageRating": "R",
+   "overview": "A bicycle courier wakes from a coma to find London deserted after a rage virus has consumed the population.",
+   "tagline": "His fear began when he woke up alone.",
+   "watch": [
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 15,
+   "title": "The Lord of the Rings: The Return of the King",
+   "originalTitle": "The Lord of the Rings: The Return of the King",
+   "year": 2003,
+   "releaseDate": "2003-06-01",
+   "rating": 8.5,
+   "votes": 19000,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "runtime": 201,
+   "language": "English",
+   "country": [
+    "New Zealand",
+    "United States"
+   ],
+   "director": "Peter Jackson",
+   "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Viggo Mortensen"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The final battle for Middle-earth rages as Frodo and Sam reach the fires of Mount Doom.",
+   "tagline": "The eye of the enemy is moving.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.9,
+    "acting": 8.8,
+    "direction": 9.2,
+    "cinematography": 9.4,
+    "music": 9.2,
+    "vfx": 8.9,
+    "entertainment": 9.1,
+    "body": "The trilogy concludes with staggering scale and emotional payoff. The Battle of Pelennor Fields and the lighting of the beacons remain defining images of 21st-century cinema.",
+    "verdict": "A triumphant, Oscar-sweeping finale."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 16,
+   "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+   "originalTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
+   "year": 2003,
+   "releaseDate": "2003-06-01",
+   "rating": 8.0,
+   "votes": 14000,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "runtime": 143,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Gore Verbinski",
+   "cast": [
+    "Johnny Depp",
+    "Orlando Bloom",
+    "Keira Knightley"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A blacksmith teams with a roguish pirate to rescue the governor's daughter from a crew of undead sailors.",
+   "tagline": "Prepare to be blown out of the water.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 17,
+   "title": "Finding Nemo",
+   "originalTitle": "Finding Nemo",
+   "year": 2003,
+   "releaseDate": "2003-06-01",
+   "rating": 7.8,
+   "votes": 12500,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure"
+   ],
+   "runtime": 100,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Andrew Stanton",
+   "cast": [
+    "Albert Brooks",
+    "Ellen DeGeneres",
+    "Alexander Gould"
+   ],
+   "ageRating": "G",
+   "overview": "An overprotective clownfish crosses the ocean to find his son with the help of a forgetful blue tang.",
+   "tagline": "71 percent of the Earth is covered by water. This is the other 29 percent.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 18,
+   "title": "Kill Bill: Vol. 1",
+   "originalTitle": "Kill Bill: Vol. 1",
+   "year": 2003,
+   "releaseDate": "2003-06-01",
+   "rating": 8.0,
+   "votes": 9200,
+   "genres": [
+    "Action",
+    "Crime",
+    "Thriller"
+   ],
+   "runtime": 111,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Quentin Tarantino",
+   "cast": [
+    "Uma Thurman",
+    "Lucy Liu",
+    "Vivica A. Fox"
+   ],
+   "ageRating": "R",
+   "overview": "An assassin left for dead on her wedding day awakens from a coma and begins crossing names off her kill list.",
+   "tagline": "Revenge is a dish best served cold.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 19,
+   "title": "The Incredibles",
+   "originalTitle": "The Incredibles",
+   "year": 2004,
+   "releaseDate": "2004-06-01",
+   "rating": 7.8,
+   "votes": 11000,
+   "genres": [
+    "Animation",
+    "Action",
+    "Family"
+   ],
+   "runtime": 115,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Brad Bird",
+   "cast": [
+    "Craig T. Nelson",
+    "Holly Hunter",
+    "Samuel L. Jackson"
+   ],
+   "ageRating": "PG",
+   "overview": "A family of superheroes in witness protection is forced back into action to save the world.",
+   "tagline": "Save the day.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 20,
+   "title": "Spider-Man 2",
+   "originalTitle": "Spider-Man 2",
+   "year": 2004,
+   "releaseDate": "2004-06-01",
+   "rating": 7.3,
+   "votes": 10500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 127,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Sam Raimi",
+   "cast": [
+    "Tobey Maguire",
+    "Kirsten Dunst",
+    "Alfred Molina"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Peter Parker struggles to balance heroism with ordinary life as Doctor Octopus emerges as a deadly new threat.",
+   "tagline": "Sacrifice. Responsibility. Destiny.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 21,
+   "title": "Eternal Sunshine of the Spotless Mind",
+   "originalTitle": "Eternal Sunshine of the Spotless Mind",
+   "year": 2004,
+   "releaseDate": "2004-06-01",
+   "rating": 8.1,
+   "votes": 8400,
+   "genres": [
+    "Drama",
+    "Romance",
+    "Sci-Fi"
+   ],
+   "runtime": 108,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Michel Gondry",
+   "cast": [
+    "Jim Carrey",
+    "Kate Winslet",
+    "Kirsten Dunst"
+   ],
+   "ageRating": "R",
+   "overview": "After a painful breakup, a man undergoes a procedure to erase his ex from memory, and changes his mind midway.",
+   "tagline": "You can erase someone from your mind.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Paramount+"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 22,
+   "title": "The Notebook",
+   "originalTitle": "The Notebook",
+   "year": 2004,
+   "releaseDate": "2004-06-01",
+   "rating": 7.8,
+   "votes": 9700,
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "runtime": 123,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Nick Cassavetes",
+   "cast": [
+    "Ryan Gosling",
+    "Rachel McAdams",
+    "James Garner"
+   ],
+   "ageRating": "PG-13",
+   "overview": "An elderly man reads a love story from a notebook to a fellow nursing-home resident.",
+   "tagline": "Behind every great love is a great story.",
+   "watch": [
+    "Netflix",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 23,
+   "title": "Saw",
+   "originalTitle": "Saw",
+   "year": 2004,
+   "releaseDate": "2004-06-01",
+   "rating": 7.1,
+   "votes": 8900,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Thriller"
+   ],
+   "runtime": 103,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Wan",
+   "cast": [
+    "Cary Elwes",
+    "Danny Glover",
+    "Monica Potter"
+   ],
+   "ageRating": "R",
+   "overview": "Two men wake in a dilapidated bathroom, chained to pipes, with a dead body and a killer's game laid out before them.",
+   "tagline": "How much blood would you shed to stay alive?",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Tubi"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 24,
+   "title": "Batman Begins",
+   "originalTitle": "Batman Begins",
+   "year": 2005,
+   "releaseDate": "2005-06-01",
+   "rating": 7.7,
+   "votes": 12500,
+   "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+   ],
+   "runtime": 140,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Christian Bale",
+    "Michael Caine",
+    "Liam Neeson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "After his parents are murdered, Bruce Wayne travels the world seeking the means to fight injustice, then returns to Gotham as Batman.",
+   "tagline": "Fear is your weapon.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 25,
+   "title": "War of the Worlds",
+   "originalTitle": "War of the Worlds",
+   "year": 2005,
+   "releaseDate": "2005-06-01",
+   "rating": 6.5,
+   "votes": 6800,
+   "genres": [
+    "Adventure",
+    "Thriller",
+    "Sci-Fi"
+   ],
+   "runtime": 116,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Steven Spielberg",
+   "cast": [
+    "Tom Cruise",
+    "Dakota Fanning",
+    "Tim Robbins"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A divorced dockworker tries to keep his children alive when alien tripods emerge from beneath the Earth.",
+   "tagline": "This summer, the last war on Earth will not be fought by humans.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Paramount+"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 26,
+   "title": "Pride & Prejudice",
+   "originalTitle": "Pride & Prejudice",
+   "year": 2005,
+   "releaseDate": "2005-06-01",
+   "rating": 8.0,
+   "votes": 8600,
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "runtime": 129,
+   "language": "English",
+   "country": [
+    "United Kingdom",
+    "France"
+   ],
+   "director": "Joe Wright",
+   "cast": [
+    "Keira Knightley",
+    "Matthew Macfadyen",
+    "Brenda Blethyn"
+   ],
+   "ageRating": "PG",
+   "overview": "In Georgian England, the strong-willed Elizabeth Bennet clashes and connects with the proud Mr. Darcy.",
+   "tagline": "Sometimes the last person on earth you want is the one person you cannot be without.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 27,
+   "title": "Casino Royale",
+   "originalTitle": "Casino Royale",
+   "year": 2006,
+   "releaseDate": "2006-06-01",
+   "rating": 7.9,
+   "votes": 12500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+   ],
+   "runtime": 144,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom",
+    "Germany"
+   ],
+   "director": "Martin Campbell",
+   "cast": [
+    "Daniel Craig",
+    "Eva Green",
+    "Mads Mikkelsen"
+   ],
+   "ageRating": "PG-13",
+   "overview": "James Bond earns his double-0 license and faces financier Le Chiffre in a high-stakes poker game.",
+   "tagline": "Everyone has a past. Every legend has a beginning.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 28,
+   "title": "The Departed",
+   "originalTitle": "The Departed",
+   "year": 2006,
+   "releaseDate": "2006-06-01",
+   "rating": 8.2,
+   "votes": 10500,
+   "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "runtime": 151,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Martin Scorsese",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Matt Damon",
+    "Jack Nicholson"
+   ],
+   "ageRating": "R",
+   "overview": "A mole in the Massachusetts State Police and an undercover cop in the Irish mob race to expose each other.",
+   "tagline": "Lies. Betrayal. Sacrifice. How far will you take it?",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 29,
+   "title": "The Prestige",
+   "originalTitle": "The Prestige",
+   "year": 2006,
+   "releaseDate": "2006-06-01",
+   "rating": 8.2,
+   "votes": 9800,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Sci-Fi"
+   ],
+   "runtime": 130,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Hugh Jackman",
+    "Christian Bale",
+    "Scarlett Johansson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Rival magicians in Victorian London escalate their feud into obsession and dangerous deception.",
+   "tagline": "Are you watching closely?",
+   "watch": [
+    "Prime Video",
+    "Paramount+",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 30,
+   "title": "Pan's Labyrinth",
+   "originalTitle": "Pan's Labyrinth",
+   "year": 2006,
+   "releaseDate": "2006-06-01",
+   "rating": 7.9,
+   "votes": 6200,
+   "genres": [
+    "Fantasy",
+    "Drama",
+    "War"
+   ],
+   "runtime": 118,
+   "language": "Spanish",
+   "country": [
+    "Mexico",
+    "Spain"
+   ],
+   "director": "Guillermo del Toro",
+   "cast": [
+    "Ivana Baquero",
+    "Sergi Lopez",
+    "Maribel Verdu"
+   ],
+   "ageRating": "R",
+   "overview": "In post-Civil War Spain, a girl escapes into a mysterious labyrinth where a faun sets her three tasks.",
+   "tagline": "Innocence lives in a world of its own.",
+   "watch": [
+    "Max",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 31,
+   "title": "Ratatouille",
+   "originalTitle": "Ratatouille",
+   "year": 2007,
+   "releaseDate": "2007-06-01",
+   "rating": 8.1,
+   "votes": 11500,
+   "genres": [
+    "Animation",
+    "Comedy",
+    "Family"
+   ],
+   "runtime": 111,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Brad Bird",
+   "cast": [
+    "Patton Oswalt",
+    "Ian Holm",
+    "Lou Romano"
+   ],
+   "ageRating": "G",
+   "overview": "A rat with a refined palate secretly partners with a kitchen garbage-boy to conquer the Paris culinary world.",
+   "tagline": "Dinner is served, by a rat.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 32,
+   "title": "No Country for Old Men",
+   "originalTitle": "No Country for Old Men",
+   "year": 2007,
+   "releaseDate": "2007-06-01",
+   "rating": 8.1,
+   "votes": 9000,
+   "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "runtime": 122,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Joel Coen",
+   "cast": [
+    "Josh Brolin",
+    "Javier Bardem",
+    "Tommy Lee Jones"
+   ],
+   "ageRating": "R",
+   "overview": "A hunter stumbles on two million dollars in drug money and is pursued by an unstoppable killer.",
+   "tagline": "There are no clean getaways.",
+   "watch": [
+    "Prime Video",
+    "Paramount+",
+    "Hulu"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 33,
+   "title": "300",
+   "originalTitle": "300",
+   "year": 2007,
+   "releaseDate": "2007-06-01",
+   "rating": 7.2,
+   "votes": 9400,
+   "genres": [
+    "Action",
+    "Adventure",
+    "War"
+   ],
+   "runtime": 117,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Zack Snyder",
+   "cast": [
+    "Gerard Butler",
+    "Lena Headey",
+    "Dominic West"
+   ],
+   "ageRating": "R",
+   "overview": "King Leonidas and 300 Spartans make a legendary last stand against the Persian army at Thermopylae.",
+   "tagline": "Prepare for glory.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 34,
+   "title": "Transformers",
+   "originalTitle": "Transformers",
+   "year": 2007,
+   "releaseDate": "2007-06-01",
+   "rating": 7.0,
+   "votes": 8800,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 143,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Michael Bay",
+   "cast": [
+    "Shia LaBeouf",
+    "Megan Fox",
+    "Josh Duhamel"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Teenager Sam Witwicky is caught in a war between the heroic Autobots and the evil Decepticons.",
+   "tagline": "Their war. Our world.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 35,
+   "title": "The Dark Knight",
+   "originalTitle": "The Dark Knight",
+   "year": 2008,
+   "releaseDate": "2008-06-01",
+   "rating": 8.5,
+   "votes": 23000,
+   "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+   ],
+   "runtime": 152,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Christian Bale",
+    "Heath Ledger",
+    "Aaron Eckhart"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Batman, Gordon and Harvey Dent bring order to Gotham, until the Joker plunges the city into anarchy.",
+   "tagline": "Welcome to a world without rules.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.8,
+    "acting": 9.3,
+    "direction": 9.4,
+    "cinematography": 9.0,
+    "music": 8.8,
+    "vfx": 8.6,
+    "entertainment": 9.5,
+    "body": "A superhero film that transcends its genre entirely. Ledger's Joker is a force of nature, and Nolan stages set pieces, from the truck flip to the hospital demolition, with surgical precision.",
+    "verdict": "The definitive comic-book film, and one of the best films of its decade."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 36,
+   "title": "Iron Man",
+   "originalTitle": "Iron Man",
+   "year": 2008,
+   "releaseDate": "2008-06-01",
+   "rating": 7.6,
+   "votes": 18000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 126,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Jon Favreau",
+   "cast": [
+    "Robert Downey Jr.",
+    "Gwyneth Paltrow",
+    "Terrence Howard"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Billionaire genius Tony Stark builds a powered suit of armor after being kidnapped in Afghanistan.",
+   "tagline": "Heroes are not born. They are built.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 37,
+   "title": "WALL-E",
+   "originalTitle": "WALL-E",
+   "year": 2008,
+   "releaseDate": "2008-06-01",
+   "rating": 8.1,
+   "votes": 11000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Sci-Fi"
+   ],
+   "runtime": 98,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Andrew Stanton",
+   "cast": [
+    "Ben Burtt",
+    "Elissa Knight",
+    "Jeff Garlin"
+   ],
+   "ageRating": "G",
+   "overview": "A lonely waste-collecting robot on an abandoned Earth falls in love and follows a probe across the galaxy.",
+   "tagline": "After 700 years of doing what he was built for, he will discover what he was meant for.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 38,
+   "title": "Slumdog Millionaire",
+   "originalTitle": "Slumdog Millionaire",
+   "year": 2008,
+   "releaseDate": "2008-06-01",
+   "rating": 8.0,
+   "votes": 8600,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "runtime": 120,
+   "language": "English",
+   "country": [
+    "United Kingdom",
+    "India"
+   ],
+   "director": "Danny Boyle",
+   "cast": [
+    "Dev Patel",
+    "Freida Pinto",
+    "Anil Kapoor"
+   ],
+   "ageRating": "R",
+   "overview": "A Mumbai street kid is accused of cheating on a game show, and his life story explains every answer.",
+   "tagline": "What does it take to find a lost love?",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Hulu"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 39,
+   "title": "Avatar",
+   "originalTitle": "Avatar",
+   "year": 2009,
+   "releaseDate": "2009-06-01",
+   "rating": 7.6,
+   "votes": 21000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 162,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "James Cameron",
+   "cast": [
+    "Sam Worthington",
+    "Zoe Saldana",
+    "Sigourney Weaver"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A paraplegic Marine bonds with the Na'vi people of Pandora through an alien avatar body, and switches sides.",
+   "tagline": "Enter the world.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.0,
+    "acting": 7.8,
+    "direction": 8.9,
+    "cinematography": 9.5,
+    "music": 8.6,
+    "vfx": 9.6,
+    "entertainment": 8.8,
+    "body": "Cameron built a world you can feel. The story is familiar, but the immersive craft and emotional sincerity made it a generation-defining theatrical experience.",
+    "verdict": "A landmark of immersive blockbuster cinema."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 40,
+   "title": "Inglourious Basterds",
+   "originalTitle": "Inglourious Basterds",
+   "year": 2009,
+   "releaseDate": "2009-06-01",
+   "rating": 8.2,
+   "votes": 9800,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "War"
+   ],
+   "runtime": 153,
+   "language": "English",
+   "country": [
+    "United States",
+    "Germany"
+   ],
+   "director": "Quentin Tarantino",
+   "cast": [
+    "Brad Pitt",
+    "Melanie Laurent",
+    "Christoph Waltz"
+   ],
+   "ageRating": "R",
+   "overview": "A band of Jewish-American soldiers and a theater owner plot against the Nazi high command in occupied France.",
+   "tagline": "Once upon a time in Nazi-occupied France.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 41,
+   "title": "Up",
+   "originalTitle": "Up",
+   "year": 2009,
+   "releaseDate": "2009-06-01",
+   "rating": 8.0,
+   "votes": 12000,
+   "genres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure"
+   ],
+   "runtime": 96,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Pete Docter",
+   "cast": [
+    "Ed Asner",
+    "Jordan Nagai",
+    "Christopher Plummer"
+   ],
+   "ageRating": "PG",
+   "overview": "A widower ties thousands of balloons to his house to fulfill a lifelong dream, accidentally bringing a young stowaway.",
+   "tagline": "The greatest adventure is just getting home.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 42,
+   "title": "The Hangover",
+   "originalTitle": "The Hangover",
+   "year": 2009,
+   "releaseDate": "2009-06-01",
+   "rating": 7.3,
+   "votes": 9800,
+   "genres": [
+    "Comedy"
+   ],
+   "runtime": 100,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Todd Phillips",
+   "cast": [
+    "Bradley Cooper",
+    "Ed Helms",
+    "Zach Galifianakis"
+   ],
+   "ageRating": "R",
+   "overview": "A Las Vegas bachelor party goes sideways when the groom disappears and his friends wake with no memory of the night.",
+   "tagline": "Some guys just cannot handle Vegas.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 43,
+   "title": "District 9",
+   "originalTitle": "District 9",
+   "year": 2009,
+   "releaseDate": "2009-06-01",
+   "rating": 7.6,
+   "votes": 7600,
+   "genres": [
+    "Sci-Fi",
+    "Action",
+    "Thriller"
+   ],
+   "runtime": 112,
+   "language": "English",
+   "country": [
+    "South Africa",
+    "United States"
+   ],
+   "director": "Neill Blomkamp",
+   "cast": [
+    "Sharlto Copley",
+    "David James",
+    "Jason Cope"
+   ],
+   "ageRating": "R",
+   "overview": "An administrator overseeing an alien refugee camp is exposed to a fluid that changes him, literally.",
+   "tagline": "They came here 28 years ago. Now they are being moved.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 44,
+   "title": "Inception",
+   "originalTitle": "Inception",
+   "year": 2010,
+   "releaseDate": "2010-06-01",
+   "rating": 8.4,
+   "votes": 24000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 148,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Joseph Gordon-Levitt",
+    "Elliot Page"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A thief who steals secrets from dreams takes one last job: plant an idea so deep it becomes real.",
+   "tagline": "Your mind is the scene of the crime.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.7,
+    "acting": 8.8,
+    "direction": 9.2,
+    "cinematography": 9.0,
+    "music": 9.0,
+    "vfx": 9.2,
+    "entertainment": 9.0,
+    "body": "Nolan turns dream logic into heist mechanics, staging zero-gravity hallway fights and folding cities with practical bravado. A blockbuster that trusts its audience completely.",
+    "verdict": "A rare blockbuster that is both a puzzle and a thrill ride."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 45,
+   "title": "The Social Network",
+   "originalTitle": "The Social Network",
+   "year": 2010,
+   "releaseDate": "2010-06-01",
+   "rating": 7.3,
+   "votes": 10500,
+   "genres": [
+    "Drama"
+   ],
+   "runtime": 120,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "David Fincher",
+   "cast": [
+    "Jesse Eisenberg",
+    "Andrew Garfield",
+    "Justin Timberlake"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The founding of Facebook and the lawsuits that followed Mark Zuckerberg's betrayal of his best friend.",
+   "tagline": "You do not get to 500 million friends without making a few enemies.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 46,
+   "title": "Toy Story 3",
+   "originalTitle": "Toy Story 3",
+   "year": 2010,
+   "releaseDate": "2010-06-01",
+   "rating": 8.0,
+   "votes": 12000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Comedy"
+   ],
+   "runtime": 103,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Lee Unkrich",
+   "cast": [
+    "Tom Hanks",
+    "Tim Allen",
+    "Joan Cusack"
+   ],
+   "ageRating": "G",
+   "overview": "Andy leaves for college, and his toys face an uncertain future at a daycare that is not what it seems.",
+   "tagline": "No toy gets left behind.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 47,
+   "title": "Shutter Island",
+   "originalTitle": "Shutter Island",
+   "year": 2010,
+   "releaseDate": "2010-06-01",
+   "rating": 8.2,
+   "votes": 15000,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Thriller"
+   ],
+   "runtime": 138,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Martin Scorsese",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Mark Ruffalo",
+    "Michelle Williams"
+   ],
+   "ageRating": "R",
+   "overview": "A U.S. Marshal investigates a disappearance at a remote asylum for the criminally insane, where nothing adds up.",
+   "tagline": "Some places never let you go.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 48,
+   "title": "How to Train Your Dragon",
+   "originalTitle": "How to Train Your Dragon",
+   "year": 2010,
+   "releaseDate": "2010-06-01",
+   "rating": 7.8,
+   "votes": 10500,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime": 98,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Chris Sanders",
+   "cast": [
+    "Jay Baruchel",
+    "Gerard Butler",
+    "America Ferrera"
+   ],
+   "ageRating": "PG",
+   "overview": "A Viking teenager befriends the dragon his village fears most, changing his tribe's way of life forever.",
+   "tagline": "One adventure will change two worlds.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 49,
+   "title": "Harry Potter and the Deathly Hallows: Part 2",
+   "originalTitle": "Harry Potter and the Deathly Hallows: Part 2",
+   "year": 2011,
+   "releaseDate": "2011-06-01",
+   "rating": 8.1,
+   "votes": 13500,
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "runtime": 130,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "David Yates",
+   "cast": [
+    "Daniel Radcliffe",
+    "Emma Watson",
+    "Rupert Grint"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Harry, Ron and Hermione race to destroy the final Horcruxes as the battle for Hogwarts begins.",
+   "tagline": "It all ends here.",
+   "watch": [
+    "Max",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 50,
+   "title": "Mission: Impossible - Ghost Protocol",
+   "originalTitle": "Mission: Impossible - Ghost Protocol",
+   "year": 2011,
+   "releaseDate": "2011-06-01",
+   "rating": 7.4,
+   "votes": 8300,
+   "genres": [
+    "Action",
+    "Thriller",
+    "Adventure"
+   ],
+   "runtime": 133,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Brad Bird",
+   "cast": [
+    "Tom Cruise",
+    "Jeremy Renner",
+    "Simon Pegg"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The IMF is disavowed after the Kremlin is bombed, and Ethan Hunt's rogue team must stop a nuclear extremist.",
+   "tagline": "No plan. No backup. No choice.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 51,
+   "title": "Rise of the Planet of the Apes",
+   "originalTitle": "Rise of the Planet of the Apes",
+   "year": 2011,
+   "releaseDate": "2011-06-01",
+   "rating": 7.3,
+   "votes": 8600,
+   "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 105,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Rupert Wyatt",
+   "cast": [
+    "James Franco",
+    "Andy Serkis",
+    "Freida Pinto"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A scientist's Alzheimer's cure gives a chimp named Caesar intelligence, igniting a revolution.",
+   "tagline": "Evolution becomes revolution.",
+   "watch": [
+    "Hulu",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 52,
+   "title": "The Avengers",
+   "originalTitle": "The Avengers",
+   "year": 2012,
+   "releaseDate": "2012-06-01",
+   "rating": 7.7,
+   "votes": 22000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 143,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Joss Whedon",
+   "cast": [
+    "Robert Downey Jr.",
+    "Chris Evans",
+    "Mark Ruffalo",
+    "Scarlett Johansson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Earth's mightiest heroes must learn to work together when Loki threatens the planet with an alien army.",
+   "tagline": "Some assembly required.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 53,
+   "title": "The Dark Knight Rises",
+   "originalTitle": "The Dark Knight Rises",
+   "year": 2012,
+   "releaseDate": "2012-06-01",
+   "rating": 7.8,
+   "votes": 18000,
+   "genres": [
+    "Action",
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "runtime": 165,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Christian Bale",
+    "Tom Hardy",
+    "Anne Hathaway"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A broken Bruce Wayne returns as Batman when the masked terrorist Bane seizes control of Gotham.",
+   "tagline": "The legend ends.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 54,
+   "title": "Skyfall",
+   "originalTitle": "Skyfall",
+   "year": 2012,
+   "releaseDate": "2012-06-01",
+   "rating": 7.6,
+   "votes": 12500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+   ],
+   "runtime": 143,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Sam Mendes",
+   "cast": [
+    "Daniel Craig",
+    "Javier Bardem",
+    "Naomie Harris"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A cyberattack exposes MI6's undercover agents, forcing a presumed-dead James Bond back into the field.",
+   "tagline": "Sometimes the old ways are the best.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 55,
+   "title": "Django Unchained",
+   "originalTitle": "Django Unchained",
+   "year": 2012,
+   "releaseDate": "2012-06-01",
+   "rating": 8.2,
+   "votes": 15000,
+   "genres": [
+    "Western",
+    "Drama"
+   ],
+   "runtime": 165,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Quentin Tarantino",
+   "cast": [
+    "Jamie Foxx",
+    "Christoph Waltz",
+    "Leonardo DiCaprio"
+   ],
+   "ageRating": "R",
+   "overview": "A freed slave partners with a German bounty hunter to rescue his wife from a Mississippi plantation owner.",
+   "tagline": "Life, liberty and the pursuit of vengeance.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 56,
+   "title": "Life of Pi",
+   "originalTitle": "Life of Pi",
+   "year": 2012,
+   "releaseDate": "2012-06-01",
+   "rating": 7.8,
+   "votes": 8200,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy"
+   ],
+   "runtime": 127,
+   "language": "English",
+   "country": [
+    "United States",
+    "Taiwan",
+    "United Kingdom"
+   ],
+   "director": "Ang Lee",
+   "cast": [
+    "Suraj Sharma",
+    "Irrfan Khan",
+    "Adil Hussain"
+   ],
+   "ageRating": "PG",
+   "overview": "A boy survives a shipwreck in a lifeboat with a Bengal tiger as his only companion.",
+   "tagline": "Believe the unbelievable.",
+   "watch": [
+    "Hulu",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 57,
+   "title": "Frozen",
+   "originalTitle": "Frozen",
+   "year": 2013,
+   "releaseDate": "2013-06-01",
+   "rating": 7.3,
+   "votes": 14000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime": 102,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Chris Buck",
+   "cast": [
+    "Kristen Bell",
+    "Idina Menzel",
+    "Josh Gad"
+   ],
+   "ageRating": "PG",
+   "overview": "A fearless princess sets off to find her sister, whose icy powers have trapped their kingdom in eternal winter.",
+   "tagline": "Only an act of true love can thaw a frozen heart.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 58,
+   "title": "Gravity",
+   "originalTitle": "Gravity",
+   "year": 2013,
+   "releaseDate": "2013-06-01",
+   "rating": 7.6,
+   "votes": 10000,
+   "genres": [
+    "Drama",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 91,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Alfonso Cuaron",
+   "cast": [
+    "Sandra Bullock",
+    "George Clooney",
+    "Ed Harris"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Two astronauts are stranded in orbit after their shuttle is destroyed, with oxygen running out.",
+   "tagline": "Do not let go.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Max"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 59,
+   "title": "12 Years a Slave",
+   "originalTitle": "12 Years a Slave",
+   "year": 2013,
+   "releaseDate": "2013-06-01",
+   "rating": 8.1,
+   "votes": 9200,
+   "genres": [
+    "Drama",
+    "History"
+   ],
+   "runtime": 134,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Steve McQueen",
+   "cast": [
+    "Chiwetel Ejiofor",
+    "Michael Fassbender",
+    "Lupita Nyongo"
+   ],
+   "ageRating": "R",
+   "overview": "A free Black man from New York is kidnapped and sold into slavery in the antebellum South.",
+   "tagline": "The extraordinary true story of Solomon Northup.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Hulu"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 60,
+   "title": "The Wolf of Wall Street",
+   "originalTitle": "The Wolf of Wall Street",
+   "year": 2013,
+   "releaseDate": "2013-06-01",
+   "rating": 8.0,
+   "votes": 16000,
+   "genres": [
+    "Crime",
+    "Drama",
+    "Comedy"
+   ],
+   "runtime": 180,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Martin Scorsese",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Jonah Hill",
+    "Margot Robbie"
+   ],
+   "ageRating": "R",
+   "overview": "The rise and fall of stockbroker Jordan Belfort, whose fraud-fueled empire of excess came crashing down.",
+   "tagline": "More money. More power. More excess.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 61,
+   "title": "Interstellar",
+   "originalTitle": "Interstellar",
+   "year": 2014,
+   "releaseDate": "2014-06-01",
+   "rating": 8.4,
+   "votes": 25000,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "runtime": 169,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Matthew McConaughey",
+    "Anne Hathaway",
+    "Jessica Chastain"
+   ],
+   "ageRating": "PG-13",
+   "overview": "With Earth dying, a pilot joins a secret mission through a wormhole to find humanity a new home.",
+   "tagline": "Mankind was born on Earth. It was never meant to die here.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.8,
+    "acting": 8.9,
+    "direction": 9.1,
+    "cinematography": 9.4,
+    "music": 9.3,
+    "vfx": 9.2,
+    "entertainment": 8.7,
+    "body": "Nolan folds relativity, love and sacrifice into a single staggering journey. The docking sequence, scored to Hans Zimmer's organ, is modern blockbuster filmmaking at its peak.",
+    "verdict": "An ambitious, emotionally overwhelming sci-fi epic."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 62,
+   "title": "Guardians of the Galaxy",
+   "originalTitle": "Guardians of the Galaxy",
+   "year": 2014,
+   "releaseDate": "2014-06-01",
+   "rating": 7.9,
+   "votes": 16000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Comedy"
+   ],
+   "runtime": 121,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Gunn",
+   "cast": [
+    "Chris Pratt",
+    "Zoe Saldana",
+    "Dave Bautista"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A motley crew of intergalactic outlaws bands together to stop a fanatic from destroying a planet.",
+   "tagline": "All heroes start somewhere.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 63,
+   "title": "Whiplash",
+   "originalTitle": "Whiplash",
+   "year": 2014,
+   "releaseDate": "2014-06-01",
+   "rating": 8.4,
+   "votes": 11000,
+   "genres": [
+    "Drama",
+    "Music"
+   ],
+   "runtime": 107,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Damien Chazelle",
+   "cast": [
+    "Miles Teller",
+    "J.K. Simmons",
+    "Melissa Benoist"
+   ],
+   "ageRating": "R",
+   "overview": "A young drummer at a cutthroat music conservatory is pushed to his breaking point by a brutal instructor.",
+   "tagline": "The road to greatness can take you to the edge.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.6,
+    "acting": 9.2,
+    "direction": 9.0,
+    "cinematography": 8.8,
+    "music": 9.5,
+    "vfx": 7.5,
+    "entertainment": 8.9,
+    "body": "Chazelle shoots music like an action film. Simmons' Fletcher is one of cinema's great monsters, and the final drum solo is pure white-knuckle catharsis.",
+    "verdict": "A ferocious duel between student and teacher."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 64,
+   "title": "The Grand Budapest Hotel",
+   "originalTitle": "The Grand Budapest Hotel",
+   "year": 2014,
+   "releaseDate": "2014-06-01",
+   "rating": 8.0,
+   "votes": 9000,
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "runtime": 99,
+   "language": "English",
+   "country": [
+    "United States",
+    "Germany"
+   ],
+   "director": "Wes Anderson",
+   "cast": [
+    "Ralph Fiennes",
+    "Tony Revolori",
+    "Saoirse Ronan"
+   ],
+   "ageRating": "R",
+   "overview": "A legendary concierge and his protege are pulled into a caper involving a stolen painting and a family fortune.",
+   "tagline": "A holiday adventure in the old world.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 65,
+   "title": "Gone Girl",
+   "originalTitle": "Gone Girl",
+   "year": 2014,
+   "releaseDate": "2014-06-01",
+   "rating": 8.1,
+   "votes": 13000,
+   "genres": [
+    "Mystery",
+    "Thriller",
+    "Drama"
+   ],
+   "runtime": 149,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "David Fincher",
+   "cast": [
+    "Ben Affleck",
+    "Rosamund Pike",
+    "Neil Patrick Harris"
+   ],
+   "ageRating": "R",
+   "overview": "When his wife vanishes on their anniversary, a husband becomes the prime suspect in a case the media devours.",
+   "tagline": "You do not know what you have got until it is gone.",
+   "watch": [
+    "Hulu",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 66,
+   "title": "Captain America: The Winter Soldier",
+   "originalTitle": "Captain America: The Winter Soldier",
+   "year": 2014,
+   "releaseDate": "2014-06-01",
+   "rating": 7.8,
+   "votes": 13000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 136,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Anthony Russo",
+   "cast": [
+    "Chris Evans",
+    "Samuel L. Jackson",
+    "Scarlett Johansson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Captain America uncovers a conspiracy inside SHIELD and faces a ghost from his past.",
+   "tagline": "In heroes we trust.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 67,
+   "title": "Mad Max: Fury Road",
+   "originalTitle": "Mad Max: Fury Road",
+   "year": 2015,
+   "releaseDate": "2015-06-01",
+   "rating": 7.6,
+   "votes": 16000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 120,
+   "language": "English",
+   "country": [
+    "Australia",
+    "United States"
+   ],
+   "director": "George Miller",
+   "cast": [
+    "Tom Hardy",
+    "Charlize Theron",
+    "Nicholas Hoult"
+   ],
+   "ageRating": "R",
+   "overview": "In a post-apocalyptic wasteland, Max joins Furiosa as she flees a tyrant who controls water and human lives.",
+   "tagline": "What a lovely day.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": {
+    "story": 8.0,
+    "acting": 8.5,
+    "direction": 9.3,
+    "cinematography": 9.6,
+    "music": 8.8,
+    "vfx": 9.4,
+    "entertainment": 9.3,
+    "body": "A two-hour chase scene that never runs out of ideas. Miller's practical stunt work and editing rhythms make it an action masterclass.",
+    "verdict": "Pure adrenaline, expertly engineered."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 68,
+   "title": "Inside Out",
+   "originalTitle": "Inside Out",
+   "year": 2015,
+   "releaseDate": "2015-06-01",
+   "rating": 7.9,
+   "votes": 14000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Comedy",
+    "Drama"
+   ],
+   "runtime": 95,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Pete Docter",
+   "cast": [
+    "Amy Poehler",
+    "Phyllis Smith",
+    "Bill Hader"
+   ],
+   "ageRating": "PG",
+   "overview": "A girl's personified emotions struggle to guide her through a family move to a new city.",
+   "tagline": "Meet the little voices inside your head.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 69,
+   "title": "The Martian",
+   "originalTitle": "The Martian",
+   "year": 2015,
+   "releaseDate": "2015-06-01",
+   "rating": 7.7,
+   "votes": 14000,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "runtime": 144,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Ridley Scott",
+   "cast": [
+    "Matt Damon",
+    "Jessica Chastain",
+    "Chiwetel Ejiofor"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Stranded on Mars and presumed dead, an astronaut uses science and humor to survive until rescue.",
+   "tagline": "Bring him home.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Hulu"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 70,
+   "title": "Jurassic World",
+   "originalTitle": "Jurassic World",
+   "year": 2015,
+   "releaseDate": "2015-06-01",
+   "rating": 6.7,
+   "votes": 13000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 124,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Colin Trevorrow",
+   "cast": [
+    "Chris Pratt",
+    "Bryce Dallas Howard",
+    "Vincent D'Onofrio"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A fully operational dinosaur park unveils a genetically engineered hybrid that escapes containment.",
+   "tagline": "The park is open.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 71,
+   "title": "The Revenant",
+   "originalTitle": "The Revenant",
+   "year": 2015,
+   "releaseDate": "2015-06-01",
+   "rating": 7.5,
+   "votes": 12000,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Western"
+   ],
+   "runtime": 156,
+   "language": "English",
+   "country": [
+    "United States",
+    "Hong Kong",
+    "Taiwan"
+   ],
+   "director": "Alejandro G. Inarritu",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Tom Hardy",
+    "Domhnall Gleeson"
+   ],
+   "ageRating": "R",
+   "overview": "Left for dead after a bear attack, a frontiersman crawls through the wilderness seeking revenge.",
+   "tagline": "Blood lost. Life found.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Hulu"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 72,
+   "title": "Avengers: Age of Ultron",
+   "originalTitle": "Avengers: Age of Ultron",
+   "year": 2015,
+   "releaseDate": "2015-06-01",
+   "rating": 7.3,
+   "votes": 15000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 141,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Joss Whedon",
+   "cast": [
+    "Robert Downey Jr.",
+    "Chris Hemsworth",
+    "Mark Ruffalo"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Tony Stark's peacekeeping program turns hostile, forcing the Avengers to stop an AI bent on human extinction.",
+   "tagline": "A new age begins.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 73,
+   "title": "Deadpool",
+   "originalTitle": "Deadpool",
+   "year": 2016,
+   "releaseDate": "2016-06-01",
+   "rating": 7.6,
+   "votes": 16000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+   ],
+   "runtime": 108,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Tim Miller",
+   "cast": [
+    "Ryan Reynolds",
+    "Morena Baccarin",
+    "T.J. Miller"
+   ],
+   "ageRating": "R",
+   "overview": "A wisecracking mercenary with a healing factor and a vendetta hunts the man who disfigured him.",
+   "tagline": "Witness the beginning of a happy ending.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 74,
+   "title": "La La Land",
+   "originalTitle": "La La Land",
+   "year": 2016,
+   "releaseDate": "2016-06-01",
+   "rating": 7.9,
+   "votes": 12000,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Music",
+    "Romance"
+   ],
+   "runtime": 128,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Damien Chazelle",
+   "cast": [
+    "Ryan Gosling",
+    "Emma Stone",
+    "John Legend"
+   ],
+   "ageRating": "PG-13",
+   "overview": "An aspiring actress and a jazz pianist chase their dreams in Los Angeles, falling in love along the way.",
+   "tagline": "Here is to the ones who dream.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 75,
+   "title": "Arrival",
+   "originalTitle": "Arrival",
+   "year": 2016,
+   "releaseDate": "2016-06-01",
+   "rating": 7.6,
+   "votes": 12000,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Sci-Fi"
+   ],
+   "runtime": 116,
+   "language": "English",
+   "country": [
+    "United States",
+    "Canada"
+   ],
+   "director": "Denis Villeneuve",
+   "cast": [
+    "Amy Adams",
+    "Jeremy Renner",
+    "Forest Whitaker"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A linguist is recruited to communicate with extraterrestrial visitors, and finds language that rewires time itself.",
+   "tagline": "Why are they here?",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Hulu"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 76,
+   "title": "Captain America: Civil War",
+   "originalTitle": "Captain America: Civil War",
+   "year": 2016,
+   "releaseDate": "2016-06-01",
+   "rating": 7.4,
+   "votes": 14000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 147,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Anthony Russo",
+   "cast": [
+    "Chris Evans",
+    "Robert Downey Jr.",
+    "Scarlett Johansson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Avengers fracture over government oversight of their power, leading heroes to fight each other.",
+   "tagline": "United we stand. Divided we fall.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 77,
+   "title": "Zootopia",
+   "originalTitle": "Zootopia",
+   "year": 2016,
+   "releaseDate": "2016-06-01",
+   "rating": 7.7,
+   "votes": 12500,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Comedy"
+   ],
+   "runtime": 108,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Byron Howard",
+   "cast": [
+    "Ginnifer Goodwin",
+    "Jason Bateman",
+    "Idris Elba"
+   ],
+   "ageRating": "PG",
+   "overview": "A rookie bunny cop and a con-artist fox uncover a conspiracy in a city of anthropomorphic animals.",
+   "tagline": "Welcome to the urban jungle.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 78,
+   "title": "Doctor Strange",
+   "originalTitle": "Doctor Strange",
+   "year": 2016,
+   "releaseDate": "2016-06-01",
+   "rating": 7.4,
+   "votes": 13000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Sci-Fi"
+   ],
+   "runtime": 115,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Scott Derrickson",
+   "cast": [
+    "Benedict Cumberbatch",
+    "Chiwetel Ejiofor",
+    "Rachel McAdams"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A brilliant but arrogant surgeon learns the mystic arts after a car crash ends his career.",
+   "tagline": "The impossibilities are endless.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 79,
+   "title": "Logan",
+   "originalTitle": "Logan",
+   "year": 2017,
+   "releaseDate": "2017-06-01",
+   "rating": 8.1,
+   "votes": 14000,
+   "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "runtime": 137,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Mangold",
+   "cast": [
+    "Hugh Jackman",
+    "Patrick Stewart",
+    "Dafne Keen"
+   ],
+   "ageRating": "R",
+   "overview": "A weary Wolverine cares for an ailing Professor X while protecting a young mutant with powers like his own.",
+   "tagline": "His time has come.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 80,
+   "title": "Get Out",
+   "originalTitle": "Get Out",
+   "year": 2017,
+   "releaseDate": "2017-06-01",
+   "rating": 7.6,
+   "votes": 11000,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Thriller"
+   ],
+   "runtime": 104,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Jordan Peele",
+   "cast": [
+    "Daniel Kaluuya",
+    "Allison Williams",
+    "Bradley Whitford"
+   ],
+   "ageRating": "R",
+   "overview": "A Black photographer visits his white girlfriend's family estate and uncovers a horrifying secret.",
+   "tagline": "Just because you are invited, does not mean you are welcome.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 81,
+   "title": "Wonder Woman",
+   "originalTitle": "Wonder Woman",
+   "year": 2017,
+   "releaseDate": "2017-06-01",
+   "rating": 7.2,
+   "votes": 14000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime": 141,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Patty Jenkins",
+   "cast": [
+    "Gal Gadot",
+    "Chris Pine",
+    "Robin Wright"
+   ],
+   "ageRating": "PG-13",
+   "overview": "An Amazon princess leaves her island home to end World War I, discovering her true powers.",
+   "tagline": "Power. Grace. Wisdom. Wonder.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 82,
+   "title": "Blade Runner 2049",
+   "originalTitle": "Blade Runner 2049",
+   "year": 2017,
+   "releaseDate": "2017-06-01",
+   "rating": 7.6,
+   "votes": 11000,
+   "genres": [
+    "Drama",
+    "Sci-Fi"
+   ],
+   "runtime": 164,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom",
+    "Canada"
+   ],
+   "director": "Denis Villeneuve",
+   "cast": [
+    "Ryan Gosling",
+    "Harrison Ford",
+    "Ana de Armas"
+   ],
+   "ageRating": "R",
+   "overview": "A young blade runner's discovery of a buried secret leads him to track down former blade runner Rick Deckard.",
+   "tagline": "The key to the future is finally unearthed.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 83,
+   "title": "Dunkirk",
+   "originalTitle": "Dunkirk",
+   "year": 2017,
+   "releaseDate": "2017-06-01",
+   "rating": 7.5,
+   "votes": 11000,
+   "genres": [
+    "Action",
+    "Drama",
+    "History",
+    "Thriller"
+   ],
+   "runtime": 106,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom",
+    "France"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Fionn Whitehead",
+    "Barry Keoghan",
+    "Mark Rylance"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Allied soldiers are evacuated from the beaches of Dunkirk as German forces close in, told across land, sea and air.",
+   "tagline": "Survival is victory.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Max"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 84,
+   "title": "Coco",
+   "originalTitle": "Coco",
+   "year": 2017,
+   "releaseDate": "2017-06-01",
+   "rating": 8.2,
+   "votes": 11000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Fantasy",
+    "Music"
+   ],
+   "runtime": 105,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Lee Unkrich",
+   "cast": [
+    "Anthony Gonzalez",
+    "Gael Garcia Bernal",
+    "Benjamin Bratt"
+   ],
+   "ageRating": "PG",
+   "overview": "A boy who dreams of being a musician crosses into the Land of the Dead to uncover his family's history.",
+   "tagline": "Seize your moment.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 85,
+   "title": "Avengers: Infinity War",
+   "originalTitle": "Avengers: Infinity War",
+   "year": 2018,
+   "releaseDate": "2018-06-01",
+   "rating": 8.3,
+   "votes": 21000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 149,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Anthony Russo",
+   "cast": [
+    "Robert Downey Jr.",
+    "Chris Hemsworth",
+    "Josh Brolin"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Avengers and their allies risk everything to stop Thanos from collecting the six Infinity Stones.",
+   "tagline": "An entire universe. Once and for all.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 86,
+   "title": "Spider-Man: Into the Spider-Verse",
+   "originalTitle": "Spider-Man: Into the Spider-Verse",
+   "year": 2018,
+   "releaseDate": "2018-06-01",
+   "rating": 8.4,
+   "votes": 13000,
+   "genres": [
+    "Animation",
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Comedy"
+   ],
+   "runtime": 117,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Bob Persichetti",
+   "cast": [
+    "Shameik Moore",
+    "Jake Johnson",
+    "Hailee Steinfeld"
+   ],
+   "ageRating": "PG",
+   "overview": "Brooklyn teen Miles Morales becomes Spider-Man and teams with counterparts from other dimensions.",
+   "tagline": "It is how you wear the mask that matters.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.8,
+    "acting": 8.7,
+    "direction": 9.0,
+    "cinematography": 9.6,
+    "music": 9.2,
+    "vfx": 9.0,
+    "entertainment": 9.4,
+    "body": "A comic book brought to life at 12 frames of genius per second. The animation style alone would make it essential; the heart underneath makes it a classic.",
+    "verdict": "One of the greatest animated films ever made."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 87,
+   "title": "Black Panther",
+   "originalTitle": "Black Panther",
+   "year": 2018,
+   "releaseDate": "2018-06-01",
+   "rating": 7.3,
+   "votes": 16000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 134,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Ryan Coogler",
+   "cast": [
+    "Chadwick Boseman",
+    "Michael B. Jordan",
+    "Lupita Nyongo"
+   ],
+   "ageRating": "PG-13",
+   "overview": "T'Challa returns to Wakanda to claim the throne, facing a challenger who wants to share Wakanda's power with the world.",
+   "tagline": "Long live the king.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 88,
+   "title": "A Quiet Place",
+   "originalTitle": "A Quiet Place",
+   "year": 2018,
+   "releaseDate": "2018-06-01",
+   "rating": 7.5,
+   "votes": 12000,
+   "genres": [
+    "Horror",
+    "Drama",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 90,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "John Krasinski",
+   "cast": [
+    "Emily Blunt",
+    "John Krasinski",
+    "Millicent Simmonds"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A family must live in complete silence to survive creatures that hunt by sound.",
+   "tagline": "If they hear you, they hunt you.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 89,
+   "title": "Mission: Impossible - Fallout",
+   "originalTitle": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "releaseDate": "2018-06-01",
+   "rating": 7.5,
+   "votes": 12000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+   ],
+   "runtime": 147,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Christopher McQuarrie",
+   "cast": [
+    "Tom Cruise",
+    "Henry Cavill",
+    "Ving Rhames"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Ethan Hunt and the IMF race stolen plutonium around the globe while being hunted by the CIA.",
+   "tagline": "Every choice has led to this.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 90,
+   "title": "A Star Is Born",
+   "originalTitle": "A Star Is Born",
+   "year": 2018,
+   "releaseDate": "2018-06-01",
+   "rating": 7.5,
+   "votes": 9500,
+   "genres": [
+    "Drama",
+    "Music",
+    "Romance"
+   ],
+   "runtime": 136,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Bradley Cooper",
+   "cast": [
+    "Lady Gaga",
+    "Bradley Cooper",
+    "Sam Elliott"
+   ],
+   "ageRating": "R",
+   "overview": "A seasoned musician discovers and falls for a struggling artist, even as his own demons grow.",
+   "tagline": "Is that alright?",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 91,
+   "title": "Avengers: Endgame",
+   "originalTitle": "Avengers: Endgame",
+   "year": 2019,
+   "releaseDate": "2019-06-01",
+   "rating": 8.3,
+   "votes": 23000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "runtime": 181,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Anthony Russo",
+   "cast": [
+    "Robert Downey Jr.",
+    "Chris Evans",
+    "Mark Ruffalo"
+   ],
+   "ageRating": "PG-13",
+   "overview": "After Thanos decimated the universe, the remaining Avengers assemble once more for a final stand.",
+   "tagline": "Part of the journey is the end.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.6,
+    "acting": 9.0,
+    "direction": 8.8,
+    "cinematography": 9.1,
+    "music": 9.2,
+    "vfx": 9.5,
+    "entertainment": 9.4,
+    "body": "An unprecedented payoff to 22 films of storytelling. The portals sequence and its aftermath land with the weight of a decade of investment.",
+    "verdict": "A satisfying, monumental conclusion to the Infinity Saga."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 92,
+   "title": "Joker",
+   "originalTitle": "Joker",
+   "year": 2019,
+   "releaseDate": "2019-06-01",
+   "rating": 8.2,
+   "votes": 18000,
+   "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "runtime": 122,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Todd Phillips",
+   "cast": [
+    "Joaquin Phoenix",
+    "Robert De Niro",
+    "Zazie Beetz"
+   ],
+   "ageRating": "R",
+   "overview": "A failed comedian, isolated and disregarded by society, spirals into the criminal mastermind known as the Joker.",
+   "tagline": "Put on a happy face.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 93,
+   "title": "Parasite",
+   "originalTitle": "Parasite",
+   "year": 2019,
+   "releaseDate": "2019-06-01",
+   "rating": 8.5,
+   "votes": 14000,
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Thriller"
+   ],
+   "runtime": 132,
+   "language": "Korean",
+   "country": [
+    "South Korea"
+   ],
+   "director": "Bong Joon-ho",
+   "cast": [
+    "Song Kang-ho",
+    "Choi Woo-shik",
+    "Park So-dam"
+   ],
+   "ageRating": "R",
+   "overview": "A poor family schemes its way into the household of a wealthy family, until a shocking secret upends everything.",
+   "tagline": "Act like you own the place.",
+   "watch": [
+    "Hulu",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 9.2,
+    "acting": 9.1,
+    "direction": 9.5,
+    "cinematography": 9.0,
+    "music": 8.8,
+    "vfx": 8.5,
+    "entertainment": 8.9,
+    "body": "Genre-fluid perfection. Bong pivots from caper comedy to nerve-shredding thriller without a single misstep, building a flawless portrait of class warfare.",
+    "verdict": "A masterpiece - the defining film of 2019."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 94,
+   "title": "1917",
+   "originalTitle": "1917",
+   "year": 2019,
+   "releaseDate": "2019-06-01",
+   "rating": 7.9,
+   "votes": 9000,
+   "genres": [
+    "Drama",
+    "History",
+    "War",
+    "Action"
+   ],
+   "runtime": 119,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Sam Mendes",
+   "cast": [
+    "George MacKay",
+    "Dean-Charles Chapman",
+    "Mark Strong"
+   ],
+   "ageRating": "R",
+   "overview": "Two British soldiers race across enemy territory to deliver a message that could save 1,600 lives.",
+   "tagline": "Time is the enemy.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 95,
+   "title": "Toy Story 4",
+   "originalTitle": "Toy Story 4",
+   "year": 2019,
+   "releaseDate": "2019-06-01",
+   "rating": 7.5,
+   "votes": 10000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Comedy"
+   ],
+   "runtime": 100,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Josh Cooley",
+   "cast": [
+    "Tom Hanks",
+    "Tim Allen",
+    "Annie Potts"
+   ],
+   "ageRating": "G",
+   "overview": "Woody, Buzz and the gang join Bonnie's new homemade toy Forky on a road trip adventure.",
+   "tagline": "The adventure of a lifetime.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 96,
+   "title": "John Wick: Chapter 3 - Parabellum",
+   "originalTitle": "John Wick: Chapter 3 - Parabellum",
+   "year": 2019,
+   "releaseDate": "2019-06-01",
+   "rating": 7.4,
+   "votes": 10000,
+   "genres": [
+    "Action",
+    "Thriller",
+    "Crime"
+   ],
+   "runtime": 131,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Chad Stahelski",
+   "cast": [
+    "Keanu Reeves",
+    "Halle Berry",
+    "Ian McShane"
+   ],
+   "ageRating": "R",
+   "overview": "With a 14 million dollar bounty on his head, John Wick fights across New York and beyond.",
+   "tagline": "Every action has consequences.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 97,
+   "title": "Tenet",
+   "originalTitle": "Tenet",
+   "year": 2020,
+   "releaseDate": "2020-06-01",
+   "rating": 7.3,
+   "votes": 11000,
+   "genres": [
+    "Action",
+    "Thriller",
+    "Sci-Fi"
+   ],
+   "runtime": 150,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "John David Washington",
+    "Robert Pattinson",
+    "Elizabeth Debicki"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A CIA agent is armed with one word, Tenet, and tasked with preventing World War III through time inversion.",
+   "tagline": "Time runs out.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 98,
+   "title": "Soul",
+   "originalTitle": "Soul",
+   "year": 2020,
+   "releaseDate": "2020-06-01",
+   "rating": 8.1,
+   "votes": 8500,
+   "genres": [
+    "Animation",
+    "Family",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Music"
+   ],
+   "runtime": 101,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Pete Docter",
+   "cast": [
+    "Jamie Foxx",
+    "Tina Fey",
+    "Graham Norton"
+   ],
+   "ageRating": "PG",
+   "overview": "A jazz musician's soul is separated from his body and must find his way back with a cynical soul's help.",
+   "tagline": "Everybody has a soul.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 99,
+   "title": "The Invisible Man",
+   "originalTitle": "The Invisible Man",
+   "year": 2020,
+   "releaseDate": "2020-06-01",
+   "rating": 7.1,
+   "votes": 8000,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 124,
+   "language": "English",
+   "country": [
+    "United States",
+    "Australia"
+   ],
+   "director": "Leigh Whannell",
+   "cast": [
+    "Elisabeth Moss",
+    "Oliver Jackson-Cohen",
+    "Aldis Hodge"
+   ],
+   "ageRating": "R",
+   "overview": "A woman believes she is being stalked by her abusive ex-boyfriend, who everyone thinks is dead.",
+   "tagline": "What you cannot see can hurt you.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Peacock"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 100,
+   "title": "Dune",
+   "originalTitle": "Dune",
+   "year": 2021,
+   "releaseDate": "2021-06-01",
+   "rating": 7.9,
+   "votes": 15000,
+   "genres": [
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 155,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Denis Villeneuve",
+   "cast": [
+    "Timothee Chalamet",
+    "Zendaya",
+    "Oscar Isaac",
+    "Rebecca Ferguson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Paul Atreides travels to the desert planet Arrakis, the most dangerous and valuable world in the universe.",
+   "tagline": "It begins.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": {
+    "story": 8.4,
+    "acting": 8.5,
+    "direction": 8.8,
+    "cinematography": 9.3,
+    "music": 9.4,
+    "vfx": 9.0,
+    "entertainment": 8.4,
+    "body": "Villeneuve delivers sci-fi on a biblical scale: sand-swept, muscular and hypnotic. A slow-burn spectacle that trusts world-building over cheap thrills.",
+    "verdict": "A monumental adaptation that honors Herbert's vision."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 101,
+   "title": "Spider-Man: No Way Home",
+   "originalTitle": "Spider-Man: No Way Home",
+   "year": 2021,
+   "releaseDate": "2021-06-01",
+   "rating": 8.0,
+   "votes": 16000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 148,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Jon Watts",
+   "cast": [
+    "Tom Holland",
+    "Zendaya",
+    "Benedict Cumberbatch"
+   ],
+   "ageRating": "PG-13",
+   "overview": "When his identity is revealed, Peter Parker asks Doctor Strange for help, accidentally unleashing dangerous foes.",
+   "tagline": "The multiverse unleashed.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 102,
+   "title": "No Time to Die",
+   "originalTitle": "No Time to Die",
+   "year": 2021,
+   "releaseDate": "2021-06-01",
+   "rating": 7.3,
+   "votes": 9000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+   ],
+   "runtime": 163,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Cary Joji Fukunaga",
+   "cast": [
+    "Daniel Craig",
+    "Lea Seydoux",
+    "Rami Malek"
+   ],
+   "ageRating": "PG-13",
+   "overview": "James Bond comes out of retirement to rescue a kidnapped scientist and confront a villain with dangerous technology.",
+   "tagline": "Bond is back.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 103,
+   "title": "Shang-Chi and the Legend of the Ten Rings",
+   "originalTitle": "Shang-Chi and the Legend of the Ten Rings",
+   "year": 2021,
+   "releaseDate": "2021-06-01",
+   "rating": 7.5,
+   "votes": 10000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime": 132,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Destin Daniel Cretton",
+   "cast": [
+    "Simu Liu",
+    "Awkwafina",
+    "Tony Leung"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A martial artist is drawn into the mysterious Ten Rings organization run by his father.",
+   "tagline": "You cannot outrun your destiny.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 104,
+   "title": "Encanto",
+   "originalTitle": "Encanto",
+   "year": 2021,
+   "releaseDate": "2021-06-01",
+   "rating": 7.6,
+   "votes": 9500,
+   "genres": [
+    "Animation",
+    "Family",
+    "Comedy",
+    "Fantasy",
+    "Music"
+   ],
+   "runtime": 102,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Byron Howard",
+   "cast": [
+    "Stephanie Beatriz",
+    "Maria Cecilia Botero",
+    "John Leguizamo"
+   ],
+   "ageRating": "PG",
+   "overview": "A Colombian girl is the only member of her magical family without a gift, yet she may be their only hope.",
+   "tagline": "There is a little magic in all of us, almost.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 105,
+   "title": "The Suicide Squad",
+   "originalTitle": "The Suicide Squad",
+   "year": 2021,
+   "releaseDate": "2021-06-01",
+   "rating": 7.6,
+   "votes": 8500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "runtime": 132,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Gunn",
+   "cast": [
+    "Margot Robbie",
+    "Idris Elba",
+    "John Cena"
+   ],
+   "ageRating": "R",
+   "overview": "A new Suicide Squad is dropped on a remote island for a mission where survival is optional.",
+   "tagline": "They are dying to save the world.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 106,
+   "title": "The Batman",
+   "originalTitle": "The Batman",
+   "year": 2022,
+   "releaseDate": "2022-06-01",
+   "rating": 7.7,
+   "votes": 14000,
+   "genres": [
+    "Action",
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "runtime": 176,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Matt Reeves",
+   "cast": [
+    "Robert Pattinson",
+    "Zoe Kravitz",
+    "Paul Dano",
+    "Colin Farrell"
+   ],
+   "ageRating": "PG-13",
+   "overview": "In his second year as Batman, the Dark Knight follows the Riddler's trail of cryptic clues into Gotham's corruption.",
+   "tagline": "Unmask the truth.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 107,
+   "title": "Top Gun: Maverick",
+   "originalTitle": "Top Gun: Maverick",
+   "year": 2022,
+   "releaseDate": "2022-06-01",
+   "rating": 8.2,
+   "votes": 17000,
+   "genres": [
+    "Action",
+    "Drama"
+   ],
+   "runtime": 131,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Joseph Kosinski",
+   "cast": [
+    "Tom Cruise",
+    "Miles Teller",
+    "Jennifer Connelly",
+    "Val Kilmer"
+   ],
+   "ageRating": "PG-13",
+   "overview": "After 30 years, Pete Maverick Mitchell trains a new generation of pilots for an impossible mission.",
+   "tagline": "Feel the need again.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.3,
+    "acting": 8.4,
+    "direction": 8.6,
+    "cinematography": 9.2,
+    "music": 8.8,
+    "vfx": 9.3,
+    "entertainment": 9.5,
+    "body": "Real jets, real G-forces, real stakes. The aerial sequences are the best ever filmed, and Cruise anchors them with his most sincere performance in years.",
+    "verdict": "A rare legacy sequel that surpasses the original."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 108,
+   "title": "Avatar: The Way of Water",
+   "originalTitle": "Avatar: The Way of Water",
+   "year": 2022,
+   "releaseDate": "2022-06-01",
+   "rating": 7.6,
+   "votes": 12000,
+   "genres": [
+    "Adventure",
+    "Action",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 192,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Cameron",
+   "cast": [
+    "Sam Worthington",
+    "Zoe Saldana",
+    "Sigourney Weaver"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Sully family fights for survival against an old enemy, finding refuge with the reef clans of Pandora.",
+   "tagline": "Return to Pandora.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 109,
+   "title": "RRR",
+   "originalTitle": "RRR",
+   "year": 2022,
+   "releaseDate": "2022-06-01",
+   "rating": 7.8,
+   "votes": 7000,
+   "genres": [
+    "Action",
+    "Drama",
+    "Adventure"
+   ],
+   "runtime": 187,
+   "language": "Telugu",
+   "country": [
+    "India"
+   ],
+   "director": "S. S. Rajamouli",
+   "cast": [
+    "N. T. Rama Rao Jr.",
+    "Ram Charan",
+    "Alia Bhatt"
+   ],
+   "ageRating": "NR",
+   "overview": "Two revolutionaries in 1920s British India forge a friendship before discovering they fight on opposite sides.",
+   "tagline": "Rise. Roar. Revolt.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "ZEE5"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 110,
+   "title": "Puss in Boots: The Last Wish",
+   "originalTitle": "Puss in Boots: The Last Wish",
+   "year": 2022,
+   "releaseDate": "2022-06-01",
+   "rating": 8.0,
+   "votes": 7500,
+   "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy",
+    "Family",
+    "Fantasy"
+   ],
+   "runtime": 102,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Joel Crawford",
+   "cast": [
+    "Antonio Banderas",
+    "Salma Hayek",
+    "Harvey Guillen"
+   ],
+   "ageRating": "PG",
+   "overview": "Down to his last life, Puss in Boots races a wolfish death itself to find the Wishing Star.",
+   "tagline": "Say hola to his little friends.",
+   "watch": [
+    "Peacock",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 111,
+   "title": "Black Panther: Wakanda Forever",
+   "originalTitle": "Black Panther: Wakanda Forever",
+   "year": 2022,
+   "releaseDate": "2022-06-01",
+   "rating": 7.2,
+   "votes": 8500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 161,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Ryan Coogler",
+   "cast": [
+    "Letitia Wright",
+    "Lupita Nyongo",
+    "Danai Gurira"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Wakanda's leaders fight to protect their nation after the death of King T'Challa.",
+   "tagline": "Forever.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 112,
+   "title": "Oppenheimer",
+   "originalTitle": "Oppenheimer",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 8.1,
+   "votes": 16000,
+   "genres": [
+    "Drama",
+    "History",
+    "Thriller"
+   ],
+   "runtime": 180,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Christopher Nolan",
+   "cast": [
+    "Cillian Murphy",
+    "Emily Blunt",
+    "Matt Damon",
+    "Robert Downey Jr."
+   ],
+   "ageRating": "R",
+   "overview": "The story of J. Robert Oppenheimer and the creation of the atomic bomb, and the price of genius.",
+   "tagline": "The world forever changes.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": {
+    "story": 8.8,
+    "acting": 9.2,
+    "direction": 9.1,
+    "cinematography": 9.2,
+    "music": 9.0,
+    "vfx": 8.6,
+    "entertainment": 8.5,
+    "body": "Nolan stages history like a thriller and guilt like a horror film. Murphy's haunted performance and the Trinity test sequence are unforgettable.",
+    "verdict": "A towering, unsettling portrait of the man who built the end of the world."
+   },
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 113,
+   "title": "Barbie",
+   "originalTitle": "Barbie",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 7.0,
+   "votes": 14000,
+   "genres": [
+    "Comedy",
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime": 114,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Greta Gerwig",
+   "cast": [
+    "Margot Robbie",
+    "Ryan Gosling",
+    "America Ferrera"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Barbie leaves Barbieland for the real world and discovers the complicated truths of being human.",
+   "tagline": "She is everything.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 114,
+   "title": "Guardians of the Galaxy Vol. 3",
+   "originalTitle": "Guardians of the Galaxy Vol. 3",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 8.0,
+   "votes": 10000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
+   ],
+   "runtime": 150,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Gunn",
+   "cast": [
+    "Chris Pratt",
+    "Zoe Saldana",
+    "Dave Bautista",
+    "Karen Gillan"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Peter Quill rallies his team to defend Rocket, whose past holds the key to a terrifying new enemy.",
+   "tagline": "Once more with feeling.",
+   "watch": [
+    "Disney+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 115,
+   "title": "The Super Mario Bros. Movie",
+   "originalTitle": "The Super Mario Bros. Movie",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 7.6,
+   "votes": 10000,
+   "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy",
+    "Family",
+    "Fantasy"
+   ],
+   "runtime": 92,
+   "language": "English",
+   "country": [
+    "United States",
+    "Japan"
+   ],
+   "director": "Aaron Horvath",
+   "cast": [
+    "Chris Pratt",
+    "Anya Taylor-Joy",
+    "Charlie Day",
+    "Jack Black"
+   ],
+   "ageRating": "PG",
+   "overview": "Brooklyn plumbers Mario and Luigi are transported to the Mushroom Kingdom and separated across worlds.",
+   "tagline": "Wahoo.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 116,
+   "title": "John Wick: Chapter 4",
+   "originalTitle": "John Wick: Chapter 4",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 7.8,
+   "votes": 11000,
+   "genres": [
+    "Action",
+    "Crime",
+    "Thriller"
+   ],
+   "runtime": 169,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Chad Stahelski",
+   "cast": [
+    "Keanu Reeves",
+    "Donnie Yen",
+    "Bill Skarsgard"
+   ],
+   "ageRating": "R",
+   "overview": "John Wick uncovers a path to defeat the High Table, but first he must face a new enemy with powerful allies.",
+   "tagline": "No way back. One way out.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Peacock"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 117,
+   "title": "Spider-Man: Across the Spider-Verse",
+   "originalTitle": "Spider-Man: Across the Spider-Verse",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 8.4,
+   "votes": 10000,
+   "genres": [
+    "Animation",
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 140,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Joaquim Dos Santos",
+   "cast": [
+    "Shameik Moore",
+    "Hailee Steinfeld",
+    "Oscar Isaac",
+    "Jake Johnson"
+   ],
+   "ageRating": "PG",
+   "overview": "Miles Morales catapults across the Multiverse and clashes with a society of Spider-People over how to handle threats.",
+   "tagline": "It is how you wear the mask.",
+   "watch": [
+    "Netflix",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 118,
+   "title": "Killers of the Flower Moon",
+   "originalTitle": "Killers of the Flower Moon",
+   "year": 2023,
+   "releaseDate": "2023-06-01",
+   "rating": 7.5,
+   "votes": 6000,
+   "genres": [
+    "Crime",
+    "Drama",
+    "History"
+   ],
+   "runtime": 206,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Martin Scorsese",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Robert De Niro",
+    "Lily Gladstone"
+   ],
+   "ageRating": "R",
+   "overview": "Members of the Osage tribe are murdered in 1920s Oklahoma after oil is discovered on their land.",
+   "tagline": "Greed is an animal that hungers for blood.",
+   "watch": [
+    "Apple TV",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 119,
+   "title": "Dune: Part Two",
+   "originalTitle": "Dune: Part Two",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 8.2,
+   "votes": 12000,
+   "genres": [
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 166,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Denis Villeneuve",
+   "cast": [
+    "Timothee Chalamet",
+    "Zendaya",
+    "Austin Butler",
+    "Florence Pugh",
+    "Rebecca Ferguson"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Paul Atreides unites with Chani and the Fremen to wage war against House Harkonnen and fulfill his destiny.",
+   "tagline": "Long live the fighters.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 120,
+   "title": "Inside Out 2",
+   "originalTitle": "Inside Out 2",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 7.6,
+   "votes": 8000,
+   "genres": [
+    "Animation",
+    "Family",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "runtime": 96,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Kelsey Mann",
+   "cast": [
+    "Amy Poehler",
+    "Maya Hawke",
+    "Kensington Tallman"
+   ],
+   "ageRating": "PG",
+   "overview": "Riley enters puberty and Anxiety storms headquarters, boxing up Joy and the original emotions.",
+   "tagline": "Make room for new feelings.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 121,
+   "title": "Deadpool & Wolverine",
+   "originalTitle": "Deadpool & Wolverine",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 7.7,
+   "votes": 12000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
+   ],
+   "runtime": 128,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Shawn Levy",
+   "cast": [
+    "Ryan Reynolds",
+    "Hugh Jackman",
+    "Emma Corrin"
+   ],
+   "ageRating": "R",
+   "overview": "Deadpool recruits a weary Wolverine to save his universe from deletion by the Time Variance Authority.",
+   "tagline": "Come together.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 122,
+   "title": "The Substance",
+   "originalTitle": "The Substance",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 7.8,
+   "votes": 7000,
+   "genres": [
+    "Horror",
+    "Thriller",
+    "Drama"
+   ],
+   "runtime": 141,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom",
+    "France"
+   ],
+   "director": "Coralie Fargeat",
+   "cast": [
+    "Demi Moore",
+    "Margaret Qualley",
+    "Dennis Quaid"
+   ],
+   "ageRating": "R",
+   "overview": "A fading celebrity tries a black-market serum that spawns a younger, better version of herself.",
+   "tagline": "If you follow the instructions, what could go wrong?",
+   "watch": [
+    "Hulu",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 123,
+   "title": "Wicked",
+   "originalTitle": "Wicked",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 7.3,
+   "votes": 6000,
+   "genres": [
+    "Fantasy",
+    "Romance",
+    "Musical"
+   ],
+   "runtime": 160,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Jon M. Chu",
+   "cast": [
+    "Cynthia Erivo",
+    "Ariana Grande",
+    "Jonathan Bailey"
+   ],
+   "ageRating": "PG",
+   "overview": "The story of how Elphaba became the Wicked Witch of the West, before Dorothy drops in.",
+   "tagline": "Every story has two witches.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 124,
+   "title": "Gladiator II",
+   "originalTitle": "Gladiator II",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 6.9,
+   "votes": 5000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "History"
+   ],
+   "runtime": 148,
+   "language": "English",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "director": "Ridley Scott",
+   "cast": [
+    "Paul Mescal",
+    "Denzel Washington",
+    "Connie Nielsen",
+    "Pedro Pascal"
+   ],
+   "ageRating": "R",
+   "overview": "Years after Maximus, Lucius must enter the Colosseum and look to his past for strength to return Rome's glory.",
+   "tagline": "Rome will remember.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 125,
+   "title": "Godzilla x Kong: The New Empire",
+   "originalTitle": "Godzilla x Kong: The New Empire",
+   "year": 2024,
+   "releaseDate": "2024-06-01",
+   "rating": 7.1,
+   "votes": 5000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+   ],
+   "runtime": 115,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Adam Wingard",
+   "cast": [
+    "Rebecca Hall",
+    "Dan Stevens",
+    "Brian Tyree Henry"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Godzilla and Kong unite against a colossal undiscovered threat hidden deep in Hollow Earth.",
+   "tagline": "Rise together or fall alone.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 126,
+   "title": "Sinners",
+   "originalTitle": "Sinners",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 7.8,
+   "votes": 5000,
+   "genres": [
+    "Horror",
+    "Thriller",
+    "Drama",
+    "Crime"
+   ],
+   "runtime": 137,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Ryan Coogler",
+   "cast": [
+    "Michael B. Jordan",
+    "Hailee Steinfeld",
+    "Wunmi Mosaku",
+    "Jack O'Connell"
+   ],
+   "ageRating": "R",
+   "overview": "Twin brothers return to their Mississippi hometown to open a juke joint, only to find an evil waiting for them.",
+   "tagline": "Dance with the devil.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 127,
+   "title": "Superman",
+   "originalTitle": "Superman",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 7.3,
+   "votes": 5000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 129,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Gunn",
+   "cast": [
+    "David Corenswet",
+    "Rachel Brosnahan",
+    "Nicholas Hoult"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Man of Steel balances his Kryptonian heritage with his human upbringing in Metropolis.",
+   "tagline": "A better tomorrow.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 128,
+   "title": "Mission: Impossible - The Final Reckoning",
+   "originalTitle": "Mission: Impossible - The Final Reckoning",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 7.4,
+   "votes": 5000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+   ],
+   "runtime": 169,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Christopher McQuarrie",
+   "cast": [
+    "Tom Cruise",
+    "Hayley Atwell",
+    "Ving Rhames",
+    "Simon Pegg"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Ethan Hunt and the IMF hunt a terrifying new weapon before it falls into the wrong hands, one last time.",
+   "tagline": "Every choice has led to this.",
+   "watch": [
+    "Paramount+",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 129,
+   "title": "Jurassic World Rebirth",
+   "originalTitle": "Jurassic World Rebirth",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 6.5,
+   "votes": 3000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "runtime": 134,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Gareth Edwards",
+   "cast": [
+    "Scarlett Johansson",
+    "Mahershala Ali",
+    "Rupert Friend"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A covert team races to secure DNA from the largest dinosaurs on a forbidden island lab.",
+   "tagline": "A new era hatches.",
+   "watch": [
+    "Peacock",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 130,
+   "title": "The Fantastic Four: First Steps",
+   "originalTitle": "The Fantastic Four: First Steps",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 7.0,
+   "votes": 3000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 115,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Matt Shakman",
+   "cast": [
+    "Pedro Pascal",
+    "Vanessa Kirby",
+    "Ebon Moss-Bachrach",
+    "Joseph Quinn"
+   ],
+   "ageRating": "PG-13",
+   "overview": "Marvel's first family faces their most daunting challenge yet in a retro-futuristic 1960s New York.",
+   "tagline": "Their world. Our future.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 131,
+   "title": "Avatar: Fire and Ash",
+   "originalTitle": "Avatar: Fire and Ash",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 7.5,
+   "votes": 3000,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 197,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "James Cameron",
+   "cast": [
+    "Sam Worthington",
+    "Zoe Saldana",
+    "Sigourney Weaver"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Sully family confronts a new Na'vi clan of volcanic warriors in the burning lands of Pandora.",
+   "tagline": "A new fire burns.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 132,
+   "title": "The Super Mario Galaxy Movie",
+   "originalTitle": "The Super Mario Galaxy Movie",
+   "year": 2026,
+   "releaseDate": "2026-06-01",
+   "rating": 7.5,
+   "votes": 1500,
+   "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy",
+    "Family",
+    "Fantasy"
+   ],
+   "runtime": 96,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Aaron Horvath",
+   "cast": [
+    "Chris Pratt",
+    "Anya Taylor-Joy",
+    "Charlie Day",
+    "Jack Black"
+   ],
+   "ageRating": "PG",
+   "overview": "Mario and friends blast off into the cosmos to stop Bowser's latest scheme among the stars.",
+   "tagline": "Wahoo, to the stars.",
+   "watch": [
+    "Peacock",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 133,
+   "title": "Toy Story 5",
+   "originalTitle": "Toy Story 5",
+   "year": 2026,
+   "releaseDate": "2026-06-01",
+   "rating": 7.3,
+   "votes": 1200,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Comedy"
+   ],
+   "runtime": 100,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Andrew Stanton",
+   "cast": [
+    "Tom Hanks",
+    "Tim Allen",
+    "Anna Kendrick",
+    "Conan O'Brien"
+   ],
+   "ageRating": "G",
+   "overview": "The toys face a new threat when a tech tablet turns playtime upside down.",
+   "tagline": "Playtime is forever.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 134,
+   "title": "Project Hail Mary",
+   "originalTitle": "Project Hail Mary",
+   "year": 2026,
+   "releaseDate": "2026-06-01",
+   "rating": 7.9,
+   "votes": 1500,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+   ],
+   "runtime": 156,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Phil Lord",
+   "cast": [
+    "Ryan Gosling",
+    "Sandra Huller"
+   ],
+   "ageRating": "PG-13",
+   "overview": "A science teacher wakes on a spacecraft with no memory of why he is the only hope for saving humanity.",
+   "tagline": "One man. One mission. One chance.",
+   "watch": [
+    "Prime Video",
+    "Apple TV",
+    "Netflix"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 135,
+   "title": "The Mandalorian & Grogu",
+   "originalTitle": "The Mandalorian & Grogu",
+   "year": 2026,
+   "releaseDate": "2026-06-01",
+   "rating": 7.4,
+   "votes": 1800,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 135,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Jon Favreau",
+   "cast": [
+    "Pedro Pascal",
+    "Sigourney Weaver",
+    "Jeremy Allen White"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Mandalorian and Grogu embark on a dangerous mission for the New Republic.",
+   "tagline": "This is the way.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 136,
+   "title": "Avengers: Doomsday",
+   "originalTitle": "Avengers: Doomsday",
+   "year": 2026,
+   "releaseDate": "2026-06-01",
+   "rating": 7.8,
+   "votes": 2500,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Fantasy"
+   ],
+   "runtime": 155,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Anthony Russo",
+   "cast": [
+    "Robert Downey Jr.",
+    "Pedro Pascal",
+    "Vanessa Kirby",
+    "Joseph Quinn"
+   ],
+   "ageRating": "PG-13",
+   "overview": "The Avengers reunite to face Doctor Doom as the multiverse collapses toward a single reckoning.",
+   "tagline": "The end begins.",
+   "watch": [
+    "Disney+",
+    "Prime Video"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 137,
+   "title": "The Conjuring: Last Rites",
+   "originalTitle": "The Conjuring: Last Rites",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 6.9,
+   "votes": 2500,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Thriller"
+   ],
+   "runtime": 133,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Michael Chaves",
+   "cast": [
+    "Vera Farmiga",
+    "Patrick Wilson",
+    "Ben Hardy"
+   ],
+   "ageRating": "R",
+   "overview": "Ed and Lorraine Warren take their most terrifying case yet, involving a dark presence that follows a family home.",
+   "tagline": "Every ending has a reckoning.",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  },
+  {
+   "id": 138,
+   "title": "Weapons",
+   "originalTitle": "Weapons",
+   "year": 2025,
+   "releaseDate": "2025-06-01",
+   "rating": 7.6,
+   "votes": 2500,
+   "genres": [
+    "Horror",
+    "Mystery",
+    "Thriller",
+    "Comedy"
+   ],
+   "runtime": 128,
+   "language": "English",
+   "country": [
+    "United States"
+   ],
+   "director": "Zach Cregger",
+   "cast": [
+    "Julia Garner",
+    "Josh Brolin",
+    "Alden Ehrenreich"
+   ],
+   "ageRating": "R",
+   "overview": "Everyone in a small town runs into the woods at 2:17 a.m., except one confused man.",
+   "tagline": "What are they running from?",
+   "watch": [
+    "Max",
+    "Prime Video",
+    "Apple TV"
+   ],
+   "review": null,
+   "poster": null,
+   "backdrop": null
+  }
+ ]
+}

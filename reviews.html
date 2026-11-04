@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies World - 50 Movie Reviews</title>
+    <style>
+        .goog-te-banner-frame.skiptranslate, 
+        .goog-te-gadget-icon,
+        .skiptranslate iframe {
+            display: none !important;
+        }
+        body {
+            top: 0px !important;
+            position: static !important;
+        }
+
+        .lang-selector-wrap select {
+            background: rgba(15, 20, 25, 0.85) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            color: #ffffff !important;
+            border: 1px solid rgba(255, 255, 255, 0.15) !important;
+            padding: 8px 14px !important;
+            border-radius: 20px !important;
+            font-family: inherit !important;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+            cursor: pointer !important;
+            outline: none !important;
+            transition: all 0.2s ease !important;
+        }
+        .lang-selector-wrap select:hover {
+            border-color: #e50914 !important;
+        }
+        .lang-selector-wrap select option {
+            background-color: #0f1419 !important;
+            color: #ffffff !important;
+            padding: 10px !important;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #0b0b0b;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #121212;
+            border-bottom: 1px solid #222;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+        }
+        .app-title {
+            color: #e50914;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
+        .search-box {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            border-radius: 25px;
+            border: 1px solid #333;
+            background-color: #1f1f1f;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+        }
+        .search-input:focus {
+            border-color: #e50914;
+        }
+        .search-results-dropdown {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            background: #181818;
+            border-radius: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 100;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+            border: 1px solid #333;
+        }
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #252525;
+        }
+        .dropdown-item:hover {
+            background-color: #252525;
+        }
+        .dropdown-item img {
+            width: 40px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        #homePage {
+            padding: 30px 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            color: #e50914;
+            border-left: 4px solid #e50914;
+            padding-left: 10px;
+        }
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .review-card {
+            background-color: #161616;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #262626;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .review-card:hover {
+            transform: translateY(-4px);
+            border-color: #e50914;
+            background-color: #1f1f1f;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .card-genre {
+            color: #e50914;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .card-text {
+            color: #aaa;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        #detailsPage {
+            display: none;
+            position: relative;
+            min-height: 90vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(11, 11, 11, 0.8) 0%, rgba(11, 11, 11, 0.95) 80%, #0b0b0b 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            backdrop-filter: blur(8px);
+        }
+        .back-btn:hover {
+            background: #e50914;
+            border-color: #e50914;
+        }
+        .content-box {
+            max-width: 420px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .poster-wrapper {
+            width: 100%;
+            max-width: 320px;
+            aspect-ratio: 2/3;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+            margin-bottom: 25px;
+            background-color: #1f1f1f;
+        }
+        .poster-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .movie-title {
+            font-size: 2.3rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        .tagline {
+            font-size: 1rem;
+            color: #b3b3b3;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .meta-pills {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .rating {
+            color: #ffcc00;
+            font-weight: 700;
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .rating-max {
+            color: #777;
+            font-weight: 400;
+        }
+        .pill {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: #e0e0e0;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .pill-gold {
+            border: 1px solid #f5c518;
+            color: #f5c518;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        .genre-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .genre-badge {
+            background-color: #990000;
+            color: #ffffff;
+            padding: 6px 16px;
+            border-radius: 18px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+        .trailer-btn {
+            display: inline-block;
+            background-color: #e50914;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .trailer-btn:hover {
+            background-color: #b80710;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <h1 class="app-title" onclick="showHomePage()">Movies World</h1>
+            <div class="lang-selector-wrap">
+                <select id="custom-translate-select" aria-label="Select Language" onchange="changeLanguage(this.value)">
+                    <option value="en">English</option>
+                    <option value="si">සිංහල</option>
+                    <option value="ta">தமிழ்</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="zh-CN">中文</option>
+                    <option value="ja">日本語</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search any movie..." oninput="handleSearch()">
+            <div id="dropdown" class="search-results-dropdown" style="display: none;"></div>
+        </div>
+    </header>
+
+    <div id="homePage">
+        <h2 class="section-title">Latest Movie Reviews (50 Collections)</h2>
+        <div class="reviews-grid" id="reviewsContainer"></div>
+    </div>
+
+    <div id="detailsPage">
+        <button class="back-btn" onclick="showHomePage()">← Back</button>
+        <div class="overlay">
+            <div class="content-box">
+                <div class="poster-wrapper">
+                    <img id="posterImg" src="" alt="Poster">
+                </div>
+                <h1 class="movie-title" id="movieTitle">Loading...</h1>
+                <p class="tagline" id="tagline"></p>
+                
+                <div class="meta-pills">
+                    <div class="rating">★ <span id="ratingVal">--</span> <span class="rating-max">/10</span></div>
+                    <span class="pill" id="yearVal">----</span>
+                    <span class="pill" id="runtimeVal">-- min</span>
+                    <span class="pill" id="pgVal">PG-13</span>
+                    <span class="pill-gold">4K</span>
+                </div>
+
+                <div class="genre-row" id="genreContainer"></div>
+
+                <div>
+                    <a id="trailerBtn" href="#" target="_blank" class="trailer-btn">▶ Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+      function changeLanguage(lang) {
+        let hostname = window.location.hostname;
+        document.cookie = "googtrans=/en/" + lang + "; path=/; domain=" + hostname;
+        document.cookie = "googtrans=/en/" + lang + "; path=/;";
+        location.reload();
+      }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const match = document.cookie.match(new RegExp('(^| )googtrans=([^;]+)'));
+        if (match) {
+          const currentLang = match[2].split('/')[2];
+          const select = document.getElementById('custom-translate-select');
+          if (select && currentLang) {
+            select.value = currentLang;
+          }
+        }
+      });
+    </script>
+
+    <div id="google_translate_element" style="display:none;"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,si,ta,hi,es,fr,de,zh-CN,ja,ar',
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+        const API_KEY = 'f96f09c101d84e8488866fe6282b4ff29';
+
+        const movieReviews = [
+            { tmdbId: 361743, title: "Top Gun: Maverick", review: "An adrenaline-pumping experience best enjoyed on the biggest screen possible." },
+            { tmdbId: 27205, title: "Inception", review: "A mind-bending cinematic experience that dives deep into the sub-conscious." },
+            { tmdbId: 155, title: "The Dark Knight", review: "An absolute masterclass in superhero cinema with an iconic performance." },
+            { tmdbId: 157336, title: "Interstellar", review: "A breathtaking fusion of complex science and emotional storytelling." },
+            { tmdbId: 245891, title: "John Wick", review: "A game-changer for the gun-fu action genre with relentless fight choreography." },
+            { tmdbId: 693134, title: "Dune: Part Two", review: "A modern masterpiece of visual and sound design that sets a new benchmark." },
+            { tmdbId: 550, title: "Fight Club", review: "A gritty and rebellious social satire with an unforgettable twist." },
+            { tmdbId: 13, title: "Forrest Gump", review: "A heartwarming journey through American history anchored by a legendary lead role." },
+            { tmdbId: 238, title: "The Godfather", review: "The pinnacle of crime drama filmmaking, rich with tension and family loyalty." },
+            { tmdbId: 680, title: "Pulp Fiction", review: "Quentin Tarantino's stylish non-linear crime classic filled with sharp dialogue." },
+            { tmdbId: 122, title: "The Lord of the Rings: The Return of the King", review: "An epic conclusion to fantasy cinema that sweeps emotional and visual heights." },
+            { tmdbId: 278, title: "The Shawshank Redemption", review: "A powerful tale of hope, resilience, and an enduring friendship behind bars." },
+            { tmdbId: 424, title: "Schindler's List", review: "A harrowing and profoundly moving historical masterpiece by Steven Spielberg." },
+            { tmdbId: 120, title: "The Lord of the Rings: The Fellowship of the Ring", review: "The magical beginning of Middle-earth's legendary journey." },
+            { tmdbId: 121, title: "The Lord of the Rings: The Two Towers", review: "Brilliant battle sequences and complex character arcs driving the middle chapter." },
+            { tmdbId: 603, title: "The Matrix", review: "A revolutionary sci-fi action thriller that changed visual effects forever." },
+            { tmdbId: 11, title: "Star Wars", review: "The space opera that launched a global cultural phenomenon." },
+            { tmdbId: 157, title: "Apocalypse Now", review: "A mesmerizing and intense psychological journey into the heart of Vietnam." },
+            { tmdbId: 497, title: "The Green Mile", review: "A deeply emotional supernatural drama that pulls at every heartstring." },
+            { tmdbId: 562, title: "Die Hard", review: "The ultimate Christmas action movie that redefined the genre." },
+            { tmdbId: 8587, title: "The Lion King", review: "A timeless animated masterpiece with unforgettable music and emotional depth." },
+            { tmdbId: 638, title: "Terminator 2: Judgment Day", review: "Groundbreaking CGI paired with relentless action pacing." },
+            { tmdbId: 105, title: "Back to the Future", review: "A fun, fast-paced time travel adventure packed with iconic chemistry." },
+            { tmdbId: 597, title: "Titanic", review: "A grand scale romantic tragedy set against historical maritime disaster." },
+            { tmdbId: 49026, title: "The Dark Knight Rises", review: "A dark and gritty finale to Christopher Nolan's Batman trilogy." },
+            { tmdbId: 1891, title: "The Empire Strikes Back", review: "Widely regarded as the best sequel in cinematic history." },
+            { tmdbId: 769, title: "GoodFellas", review: "Martin Scorsese's masterclass in fast-paced mob storytelling." },
+            { tmdbId: 38, title: "Eternal Sunshine of the Spotless Mind", review: "A wonderfully surreal and heartbreaking look at love and memory." },
+            { tmdbId: 539, title: "Psycho", review: "Alfred Hitchcock's suspenseful horror pillar that shocked the world." },
+            { tmdbId: 103, title: "Taxi Driver", review: "A moody, atmospheric character study of urban isolation and descent." },
+            { tmdbId: 73, title: "American History X", review: "A heavy, hard-hitting drama addressing hatred and redemption." },
+            { tmdbId: 129, title: "Spirited Away", review: "Hayao Miyazaki's enchanting and imaginative animated masterpiece." },
+            { tmdbId: 496243, title: "Parasite", review: "A razor-sharp social satire thriller with brilliant pacing and plot shifts." },
+            { tmdbId: 515042, title: "Gladiator II", review: "An epic continuation of the Roman colosseum spectacles." },
+            { tmdbId: 98, title: "Gladiator", review: "Russell Crowe delivers a powerhouse performance in this brutal historical epic." },
+            { tmdbId: 299534, title: "Avengers: Endgame", review: "The ultimate superhero culmination event packed with fan service." },
+            { tmdbId: 299536, title: "Avengers: Infinity War", review: "A high-stakes thriller where the villain actually achieves his goal." },
+            { tmdbId: 315635, title: "Spider-Man: Into the Spider-Verse", review: "A visually revolutionary animation style that redefined comic book movies." },
+            { tmdbId: 569094, title: "Spider-Man: Across the Spider-Verse", review: "Expanding the multiverse with staggering artistic vision." },
+            { tmdbId: 634649, title: "Spider-Man: No Way Home", review: "A nostalgic celebration of three generations of live-action Spider-Man history." },
+            { tmdbId: 335984, title: "Blade Runner 2049", review: "Denis Villeneuve's visually breathtaking sci-fi noir continuation." },
+            { tmdbId: 324857, title: "Spider-Man: Into the Spider-Verse", review: "A visual treat that broke all standard animation rules." },
+            { tmdbId: 872585, title: "Oppenheimer", review: "Christopher Nolan's tense biographical drama driven by brilliant performances." },
+            { tmdbId: 346648, title: "The Martian", review: "A witty, science-backed survival story led by Matt Damon." },
+            { tmdbId: 264660, title: "The Revenant", review: "A grueling, raw survival epic featuring stunning natural cinematography." },
+            { tmdbId: 10681, title: "WALL·E", review: "A charming sci-fi animation with powerful environmental themes." },
+            { tmdbId: 1422, title: "The Departed", review: "A tense cat-and-mouse crime thriller set in Boston." },
+            { tmdbId: 16869, title: "Inglourious Basterds", review: "Tarantino's entertaining alternate-history World War II thriller." },
+            { tmdbId: 24428, title: "The Avengers", review: "The landmark crossover that cemented the modern superhero franchise era." },
+            { tmdbId: 671, title: "Harry Potter and the Sorcerer's Stone", review: "The magical entry point into J.K. Rowling's spellbinding wizarding world." }
+        ];
+
+        const reviewsContainer = document.getElementById('reviewsContainer');
+        movieReviews.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'review-card';
+            card.onclick = () => loadMovieDetails(item.tmdbId);
+            card.innerHTML = `
+                <h3 class="card-title">${item.title}</h3>
+                <span class="card-genre">Review</span>
+                <p class="card-text">"${item.review}"</p>
+            `;
+            reviewsContainer.appendChild(card);
+        });
+
+        async function handleSearch() {
+            const query = document.getElementById('searchInput').value.trim();
+            const dropdown = document.getElementById('dropdown');
+
+            if (query.length < 2) {
+                dropdown.style.display = 'none';
+                return;
+            }
+
+            try {
+                const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}`);
+                const data = await res.json();
+                
+                dropdown.innerHTML = '';
+                if (data.results && data.results.length > 0) {
+                    dropdown.style.display = 'block';
+                    data.results.slice(0, 6).forEach(movie => {
+                        const item = document.createElement('div');
+                        item.className = 'dropdown-item';
+                        item.onclick = () => {
+                            dropdown.style.display = 'none';
+                            document.getElementById('searchInput').value = '';
+                            loadMovieDetails(movie.id);
+                        };
+                        const posterPath = movie.poster_path ? `https://image.tmdb.org/t/p/w92${movie.poster_path}` : 'https://via.placeholder.com/40x60';
+                        item.innerHTML = `
+                            <img src="${posterPath}" alt="Poster">
+                            <div>
+                                <div style="font-weight: bold; font-size: 0.95rem;">${movie.title}</div>
+                                <div style="font-size: 0.8rem; color: #888;">${movie.release_date ? movie.release_date.split('-')[0] : 'N/A'}</div>
+                            </div>
+                        `;
+                        dropdown.appendChild(item);
+                    });
+                } else {
+                    dropdown.style.display = 'none';
+                }
+            } catch (err) {
+                console.error("Search error:", err);
+            }
+        }
+
+        async function loadMovieDetails(movieId) {
+            document.getElementById('homePage').style.display = 'none';
+            const detailsPage = document.getElementById('detailsPage');
+            detailsPage.style.display = 'block';
+            window.scrollTo(0, 0);
+
+            document.getElementById('movieTitle').innerText = "Loading...";
+            document.getElementById('tagline').innerText = "";
+            document.getElementById('posterImg').src = "";
+
+            try {
+                const res = await fetch(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${API_KEY}&append_to_response=videos`);
+                const movie = await res.json();
+
+                document.getElementById('movieTitle').innerText = movie.title || "Untitled";
+                document.getElementById('tagline').innerText = movie.tagline || movie.overview || "";
+                document.getElementById('ratingVal').innerText = movie.vote_average ? movie.vote_average.toFixed(1) : "N/A";
+                document.getElementById('yearVal').innerText = movie.release_date ? movie.release_date.split('-')[0] : "----";
+                document.getElementById('runtimeVal').innerText = movie.runtime ? `${movie.runtime} min` : "N/A";
+                
+                if (movie.poster_path) {
+                    document.getElementById('posterImg').src = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
+                } else {
+                    document.getElementById('posterImg').src = 'https://via.placeholder.com/320x480?text=No+Image';
+                }
+
+                if (movie.backdrop_path) {
+                    detailsPage.style.backgroundImage = `url('https://image.tmdb.org/t/p/original${movie.backdrop_path}')`;
+                } else {
+                    detailsPage.style.backgroundImage = 'none';
+                }
+
+                const genreContainer = document.getElementById('genreContainer');
+                genreContainer.innerHTML = '';
+                if (movie.genres) {
+                    movie.genres.forEach(g => {
+                        const badge = document.createElement('span');
+                        badge.className = 'genre-badge';
+                        badge.innerText = g.name;
+                        genreContainer.appendChild(badge);
+                    });
+                }
+
+                const trailer = movie.videos && movie.videos.results ? movie.videos.results.find(vid => vid.type === 'Trailer' && vid.site === 'YouTube') : null;
+                const trailerBtn = document.getElementById('trailerBtn');
+                if (trailer) {
+                    trailerBtn.href = `https://www.youtube.com/watch?v=${trailer.key}`;
+                } else {
+                    trailerBtn.href = `https://www.youtube.com/results?search_query=${encodeURIComponent(movie.title)}+trailer`;
+                }
+
+            } catch (err) {
+                console.error("API Fetch Error:", err);
+            }
+        }
+
+        function showHomePage() {
+            document.getElementById('detailsPage').style.display = 'none';
+            document.getElementById('homePage').style.display = 'block';
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>

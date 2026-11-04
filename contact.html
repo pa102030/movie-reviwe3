@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <title>Contact | MOVIES WORLD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0d12">
+  <meta name="description" content="Contact the MOVIES WORLD team.">
+  <meta property="og:site_name" content="MOVIES WORLD">
+  <meta property="og:title" content="Contact | MOVIES WORLD">
+  <meta property="og:description" content="Contact the MOVIES WORLD team.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact | MOVIES WORLD">
+  <meta name="twitter:description" content="Contact the MOVIES WORLD team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23e50914'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>M</text></svg>">
+
+  <style>
+    .goog-te-banner-frame.skiptranslate, 
+    .goog-te-gadget-icon,
+    .skiptranslate iframe {
+      display: none !important;
+    }
+    body {
+      top: 0px !important;
+      position: static !important;
+    }
+
+    .lang-selector-wrap select {
+      background: rgba(15, 20, 25, 0.85) !important;
+      backdrop-filter: blur(12px) !important;
+      -webkit-backdrop-filter: blur(12px) !important;
+      color: #ffffff !important;
+      border: 1px solid rgba(255, 255, 255, 0.15) !important;
+      padding: 6px 12px !important;
+      border-radius: 20px !important;
+      font-family: inherit !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      cursor: pointer !important;
+      outline: none !important;
+      transition: all 0.2s ease !important;
+    }
+    .lang-selector-wrap select:hover {
+      border-color: #e50914 !important;
+    }
+    .lang-selector-wrap select option {
+      background-color: #0f1419 !important;
+      color: #ffffff !important;
+      padding: 10px !important;
+    }
+
+    #form-status {
+      margin-top: 15px;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: 500;
+      text-align: center;
+      display: none;
+    }
+    #form-status.success {
+      background: rgba(46, 204, 113, 0.15);
+      color: #2ecc71;
+      border: 1px solid rgba(46, 204, 113, 0.3);
+      display: block;
+    }
+    #form-status.error {
+      background: rgba(231, 76, 60, 0.15);
+      color: #e74c3c;
+      border: 1px solid rgba(231, 76, 60, 0.3);
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="loader" aria-hidden="true"><div><div class="loader-reel"><i class="fa-solid fa-clapperboard"></i></div><p>MOVIES WORLD</p></div></div>
+  
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="MOVIES WORLD home">
+        <span class="logo-mark"><i class="fa-solid fa-clapperboard"></i></span>
+        MOVIES<b>WORLD</b>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="genres.html">Genres</a>
+        <a href="movies.html?sort=rating">Top Rated</a>
+        <a href="movies.html?sort=newest">Latest</a>
+        <a href="watchlist.html">Watchlist</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-selector-wrap">
+            <select id="custom-translate-select" aria-label="Select Language" onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="si">සිංහල</option>
+                <option value="ta">தமிழ்</option>
+                <option value="hi">हिन्दी</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="zh-CN">中文</option>
+                <option value="ja">日本語</option>
+                <option value="ar">العربية</option>
+            </select>
+        </div>
+        <button class="icon-btn" data-open-search aria-label="Search movies"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark and light theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
+        <a href="watchlist.html" class="btn-profile"><i class="fa-solid fa-user"></i> <span id="profile-nav-text">Profile</span></a>
+        <button class="icon-btn hamburger" data-open-search aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <h1>Contact Us</h1>
+      <p>Questions, corrections or partnership inquiries? We read everything.</p>
+    </div>
+    
+    <section class="section" style="padding-top:0;max-width:720px">
+      <form id="contact-form" class="panel" action="https://formspree.io/f/xkjgrakd" method="POST">
+        <div class="fgroup" style="margin-bottom:14px">
+          <label for="c-name">Name</label>
+          <input id="c-name" name="name" required style="width:100%;padding:12px 14px;border-radius:10px;background:var(--surface-2);border:1px solid var(--border);color:var(--text);">
+        </div>
+        <div class="fgroup" style="margin-bottom:14px">
+          <label for="c-email">Email</label>
+          <input id="c-email" name="email" type="email" required style="width:100%;padding:12px 14px;border-radius:10px;background:var(--surface-2);border:1px solid var(--border);color:var(--text);">
+        </div>
+        <div class="fgroup" style="margin-bottom:20px">
+          <label for="c-msg">Message</label>
+          <textarea id="c-msg" name="message" required rows="5" style="width:100%;padding:12px 14px;border-radius:10px;background:var(--surface-2);border:1px solid var(--border);color:var(--text);font-family:inherit"></textarea>
+        </div>
+        <button id="submit-btn" class="btn btn-red" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        <div id="form-status"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="logo-mark"><i class="fa-solid fa-clapperboard"></i></span>MOVIES<b>WORLD</b></a>
+          <p>Your destination for discovering great movies. Discover. Review. Watch.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html?sort=rating">Top Rated</a></li>
+            <li><a href="movies.html?sort=newest">Latest</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Years</h4>
+          <ul>
+            <li><a href="movies.html?year=2026">Best of 2026</a></li>
+            <li><a href="movies.html?year=2025">Best of 2025</a></li>
+            <li><a href="movies.html?year=2024">Best of 2024</a></li>
+            <li><a href="movies.html?year=2020">Best of 2020</a></li>
+            <li><a href="movies.html?year=2010">Best of 2010</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="watchlist.html">Watchlist</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="privacy.html#terms">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 MOVIES WORLD. All rights reserved.</span>
+        <span>All movie data courtesy of TMDB · This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var form = document.getElementById("contact-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("form-status");
+      var btn = document.getElementById("submit-btn");
+      var data = new FormData(event.target);
+      
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks! Your message has been sent successfully.";
+          status.className = "success";
+          form.reset();
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form.";
+            }
+            status.className = "error";
+          })
+        }
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Send Message';
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form.";
+        status.className = "error";
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Send Message';
+      });
+    }
+    
+    form.addEventListener("submit", handleSubmit);
+  </script>
+
+  <script type="text/javascript">
+    function changeLanguage(lang) {
+      let hostname = window.location.hostname;
+      document.cookie = "googtrans=/en/" + lang + "; path=/; domain=" + hostname;
+      document.cookie = "googtrans=/en/" + lang + "; path=/;";
+      location.reload();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const match = document.cookie.match(new RegExp('(^| )googtrans=([^;]+)'));
+      if (match) {
+        const currentLang = match[2].split('/')[2];
+        const select = document.getElementById('custom-translate-select');
+        if (select && currentLang) {
+          select.value = currentLang;
+        }
+      }
+    });
+  </script>
+
+  <div id="google_translate_element" style="display:none;"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,si,ta,hi,es,fr,de,zh-CN,ja,ar',
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCwrFXNjcaDyzcaz58Nbgqw4BSMapw63yw",
+      authDomain: "movies-world-9e4fd.firebaseapp.com",
+      projectId: "movies-world-9e4fd",
+      storageBucket: "movies-world-9e4fd.firebasestorage.app",
+      messagingSenderId: "937197990910",
+      appId: "1:937197990910:web:9eede9e6d915e4822046af",
+      measurementId: "G-8RYLEQ6JSL"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    setTimeout(() => {
+      const loader = document.querySelector(".loader");
+      if (loader) loader.remove();
+    }, 800);
+
+    onAuthStateChanged(auth, (user) => {
+      const profileSpan = document.getElementById('profile-nav-text');
+      if (user) {
+        const nameToShow = user.displayName || user.email.split('@')[0];
+        if (profileSpan) profileSpan.innerText = nameToShow;
+      } else {
+        if (profileSpan) profileSpan.innerText = 'Profile';
+      }
+    });
+  </script>
+</body>
+</html>

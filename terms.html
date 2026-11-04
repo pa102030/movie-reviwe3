@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <title>Terms of Service - MOVIES WORLD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Hide Google Translate Notification Banner and iframe completely */
+    .goog-te-banner-frame.skiptranslate, 
+    .goog-te-gadget-icon,
+    .skiptranslate iframe {
+      display: none !important;
+    }
+    body {
+      top: 0px !important;
+      position: static !important;
+    }
+
+    /* Dark & Blur style for language selector menu */
+    .lang-selector-wrap select {
+      background: rgba(15, 20, 25, 0.85) !important;
+      backdrop-filter: blur(12px) !important;
+      -webkit-backdrop-filter: blur(12px) !important;
+      color: #ffffff !important;
+      border: 1px solid rgba(255, 255, 255, 0.15) !important;
+      padding: 6px 12px !important;
+      border-radius: 20px !important;
+      font-family: inherit !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      cursor: pointer !important;
+      outline: none !important;
+      transition: all 0.2s ease !important;
+    }
+    .lang-selector-wrap select:hover {
+      border-color: #e50914 !important;
+    }
+    .lang-selector-wrap select option {
+      background-color: #0f1419 !important;
+      color: #ffffff !important;
+      padding: 10px !important;
+    }
+
+    .legal-container { max-width: 900px; margin: 60px auto; padding: 20px; color: #cbd5e1; line-height: 1.7; }
+    .legal-container h1 { color: #f8fafc; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+  <!-- Site header with navigation and language selector -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="MOVIES WORLD home">
+        <span class="logo-mark"><i class="fa-solid fa-clapperboard"></i></span>
+        MOVIES<b>WORLD</b>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="genres.html">Genres</a>
+        <a href="movies.html?sort=rating">Top Rated</a>
+        <a href="movies.html?sort=newest">Latest</a>
+        <a href="watchlist.html">Watchlist</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-selector-wrap">
+            <select id="custom-translate-select" aria-label="Select Language" onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="si">සිංහල</option>
+                <option value="ta">தமிழ்</option>
+                <option value="hi">हिन्दी</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="zh-CN">中文</option>
+                <option value="ja">日本語</option>
+                <option value="ar">العربية</option>
+            </select>
+        </div>
+        <button class="icon-btn" data-open-search aria-label="Search movies"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark and light theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
+        <a href="watchlist.html" class="btn-profile"><i class="fa-solid fa-user"></i> <span id="profile-nav-text">Profile</span></a>
+        <button class="icon-btn hamburger" data-open-search aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="legal-container">
+    <h1>Terms of Service</h1>
+    <p>By accessing and using MOVIES WORLD, you agree to comply with our terms and conditions.</p>
+    <p>All movie metadata, posters, and imagery belong to their respective owners and TMDB. MOVIES WORLD provides movie information and review guides for educational and informational purposes only. We do not host or distribute pirated content.</p>
+  </div>
+
+  <!-- Language persistence script and Google Translate setup -->
+  <script type="text/javascript">
+    function changeLanguage(lang) {
+      let hostname = window.location.hostname;
+      document.cookie = "googtrans=/en/" + lang + "; path=/; domain=" + hostname;
+      document.cookie = "googtrans=/en/" + lang + "; path=/;";
+      location.reload();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const match = document.cookie.match(new RegExp('(^| )googtrans=([^;]+)'));
+      if (match) {
+        const currentLang = match[2].split('/')[2];
+        const select = document.getElementById('custom-translate-select');
+        if (select && currentLang) {
+          select.value = currentLang;
+        }
+      }
+    });
+  </script>
+
+  <div id="google_translate_element" style="display:none;"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,si,ta,hi,es,fr,de,zh-CN,ja,ar',
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- FIREBASE AUTH STATE CHECKER -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCwrFXNjcaDyzcaz58Nbgqw4BSMapw63yw",
+      authDomain: "movies-world-9e4fd.firebaseapp.com",
+      projectId: "movies-world-9e4fd",
+      storageBucket: "movies-world-9e4fd.firebasestorage.app",
+      messagingSenderId: "937197990910",
+      appId: "1:937197990910:web:9eede9e6d915e4822046af",
+      measurementId: "G-8RYLEQ6JSL"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    onAuthStateChanged(auth, (user) => {
+      const profileSpan = document.getElementById('profile-nav-text');
+      if (user) {
+        const nameToShow = user.displayName || user.email.split('@')[0];
+        if (profileSpan) profileSpan.innerText = nameToShow;
+      } else {
+        if (profileSpan) profileSpan.innerText = 'Profile';
+      }
+    });
+  </script>
+</body>
+</html>
